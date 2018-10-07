@@ -1,0 +1,59 @@
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left
+}
+
+.title {
+  display: flex;
+  align-items: flex-start;
+}
+
+.title_count {
+  margin-right: 30px !important;
+  margin-top: -0.3% !important;
+  font-size: 200% !important;
+  line-height: 1 !important;
+  color: #870E42;
+}
+
+.table-1 {
+  font-size: 50% !important;
+  background-color: #e6f1fc;
+}
+
+.table-1 th {
+  text-align: center !important;
+}
+
+.table-1 th,
+.table-1 td {
+  border-width: 1px !important;
+  border-style: solid !important;
+  vertical-align: middle !important;
+}
+
+.table-1 tr td:nth-child(3) {
+  white-space: nowrap;
+}
+
+.table-1 tr td:nth-child(4) {
+  white-space: nowrap;
+}
+
+.table-1_footer td {
+  font-size: 130% !important;
+  white-space: nowrap;
+  font-weight: bold !important;
+}
+
+.table-1_footer td:nth-child(1) {
+  text-align: right !important;
+}

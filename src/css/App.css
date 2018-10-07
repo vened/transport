@@ -1,0 +1,13 @@
+/* наброски для анимации */
+.section.active {
+  /*animation: App-logo-spin 700ms linear;*/
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0) rotateX(70deg) translate3d(0, 0, 0);
+  }
+}
