@@ -4,9 +4,9 @@ import {
   Icon,
 } from 'antd';
 import img from '../assets/slideGridMap_Category1_Slide2_1.jpg';
-import { DataCategory1_Slide2_2 } from '../../../stubs/DataCategory1';
+import { DataCategory1_Slide2 } from '../../../stubs/DataCategory1';
 
-const initialState = DataCategory1_Slide2_2.map((item) => {
+const initialState = DataCategory1_Slide2.map((item) => {
   return {
     id: item.id,
     text: item.text,
@@ -25,7 +25,7 @@ class Slide2_1 extends PureComponent {
   };
 
   hide = (currentItem) => {
-    const popovers = DataCategory1_Slide2_2.map((item) => {
+    const popovers = DataCategory1_Slide2.map((item) => {
       return {
         ...item,
         show: false,
@@ -35,7 +35,7 @@ class Slide2_1 extends PureComponent {
   };
 
   handleVisibleChange = (visible, currentItem) => {
-    const popovers = DataCategory1_Slide2_2.map((item) => {
+    const popovers = DataCategory1_Slide2.map((item) => {
       if (currentItem.id === item.id) {
         return {
           ...item,
@@ -65,12 +65,12 @@ class Slide2_1 extends PureComponent {
                 Неотложные меры по строительству и реконструкции региональных автомобильных дорог и транспортных сооружений
               </div>
               <div className="slideGridSidebar_text">
-                <Popover
-                  title="Title"
-                  trigger="click"
-                >
                   Проектируемые объекты
-                </Popover>
+              </div>
+              <div className="slideGridSidebar_text">
+                <a href="#Page3/5">
+                  Подробная таблица
+                </a>
               </div>
             </div>
             <div className="slideGridMap slideGridMap_Category1_Slide2_1">

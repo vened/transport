@@ -1,5 +1,5 @@
 import React from 'react';
-import { DataCategory1_Slide2_2 } from '../../../stubs/DataCategory1';
+import { DataCategory1_Slide2 } from '../../../stubs/DataCategory1';
 
 const Slide2_2 = () => (
   <div className="slide active" id="Category1_Slide2_2">
@@ -23,7 +23,37 @@ const Slide2_2 = () => (
         </tr>
         </thead>
         <tbody>
-        {DataCategory1_Slide2_2.map((item) => {
+        {DataCategory1_Slide2.map((item) => {
+          if (item.project) {
+            return (
+              <tr className="table-1_footer_lite">
+                <td colSpan="2">
+                  {item.text}
+                </td>
+                <td>
+                  {item.price}
+                </td>
+                <td>
+                  {item.price2}
+                </td>
+              </tr>
+            );
+          }
+          if (item.itog) {
+            return (
+              <tr className="table-1_footer">
+                <td colSpan="2">
+                  {item.text}
+                </td>
+                <td>
+                  {item.price}
+                </td>
+                <td>
+                  {item.price2}
+                </td>
+              </tr>
+            );
+          }
           return (
             <tr>
               <td>
