@@ -65,7 +65,7 @@ class Slide2_1 extends PureComponent {
                 Неотложные меры по строительству и реконструкции региональных автомобильных дорог и транспортных сооружений
               </div>
               <div className="slideGridSidebar_text">
-                  Проектируемые объекты
+                Проектируемые объекты
               </div>
               <div className="slideGridSidebar_text">
                 <a href="#Page3/4">

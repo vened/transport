@@ -41,15 +41,18 @@
 
 .title_count {
   margin-right: 30px !important;
-  font-size: 200% !important;
+  font-size: 300% !important;
   line-height: 1 !important;
+  font-weight: bold;
+  color: #1a4c91;
 }
 
 .App .title_title {
   width: 100%;
   margin: 0;
-  padding: 4px 16px;
-  background-color: #2a76dd;
+  padding: 12px 25px;
+  border-radius: 25px 0 25px 0;
+  background-color: #0082b3;
   color: #fff !important;
   font-weight: 400;
   text-align: left;
@@ -104,11 +107,12 @@
   color: #870E42;
 }
 
-.fp-slide{
+.fp-slide {
   float: none !important;
   display: inline-block !important;
   vertical-align: middle;
 }
+
 .slideGrid {
   display: flex;
   align-items: center;
@@ -117,6 +121,7 @@
 
 .slideGridSidebar {
   width: 35%;
+  margin-right: 2em;
   text-align: center;
 }
 
@@ -131,9 +136,10 @@
 }
 
 .slideGridSidebar_text_blue_bg {
-  padding: 0.5em;
-  background-color: #2a76dd;
   color: #fff;
+  padding: 12px 25px;
+  border-radius: 25px 0 25px 0;
+  background-color: #0082b3;
 }
 
 .slideGridMap {
@@ -174,7 +180,8 @@
 .ant-popover-inner {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45) !important;
 }
-.tooltipPoint{
+
+.tooltipPoint {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -184,6 +191,7 @@
   font-size: 16px;
   color: #fff;
 }
+
 .tooltipContent {
   position: relative;
   width: 420px;

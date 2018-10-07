@@ -17,6 +17,11 @@ const Slide1_1 = () => (
           <div className="slideGridSidebar_text">
             Строящиеся объекты
           </div>
+          <div className="slideGridSidebar_text">
+            <a href="#Page3/2">
+              Подробная таблица
+            </a>
+          </div>
         </div>
         <div className="slideGridMap slideGridMap_Category1_Slide1_1">
           <img src={img} alt="" />
