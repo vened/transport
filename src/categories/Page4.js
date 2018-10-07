@@ -1,20 +1,16 @@
 import React from 'react';
 
-const Page3 = () => (
+const Page4 = () => (
   <section className="section">
-    <div className="sectionTitle">
-      <h3>
-        <b className="title_count">
-          1.
-        </b>
-        Неотложные меры по
-        <br />
-        строительству и реконструкции региональных
-        <br />
-        автомобильных дорог и транспортных сооружений
-      </h3>
+    <div className="title">
+      <b className="title_count">
+        1
+      </b>
+      <h4 className="title_title">
+        Неотложные меры по строительству и реконструкции региональных автомобильных дорог и
+        транспортных сооружений
+      </h4>
     </div>
-
     <p>
       Произведена проработка транспортной стратегии Московской области на
       <b className="color1"> 5 лет (2018 – 2013 г.г.)</b>
@@ -51,4 +47,4 @@ const Page3 = () => (
   </section>
 );
 
-export default Page3;
+export default Page4;

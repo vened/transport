@@ -11,8 +11,30 @@
   text-align: left
 }
 
+.sectionTitle{
+  margin: 0 0 1em;
+  padding: 0 0 0.2em;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.sectionTitle h3{
+  margin: 0;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.sectionTitle .title_count {
+  margin-right: 8px !important;
+  margin-top: -0.3% !important;
+  font-size: 1.15em !important;
+  line-height: 1 !important;
+  color: #870E42;
+}
+
+
 .title {
-  margin: 0 0 32px;
+  margin: 0 0 1em;
   display: flex;
   align-items: center;
 }
