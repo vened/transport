@@ -7,7 +7,7 @@ import 'antd/dist/antd.css';
 import Page1 from './categories/Page1';
 import Page2 from './categories/Page2';
 import Category1 from './categories/Category1/Category1';
-import Page4 from './categories/Page4';
+import Category2 from './categories/Category2/Category2';
 
 class App extends Component {
   componentDidMount() {
@@ -36,7 +36,7 @@ class App extends Component {
         <Page1 />
         <Page2 />
         <Category1 />
-        <Page4 />
+        <Category2 />
       </div>
     );
   }

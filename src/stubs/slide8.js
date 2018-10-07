@@ -1,0 +1,82 @@
+// страница №8 в презентации
+
+export const DataCategory7 = [
+  {
+    id: '№',
+    area: 'Район',
+    buildingArea: ' Планируемая площадь застройки (тыс. кв. м.)',
+    populationSize: 'Планируемая численность населения',
+    jobSize: 'Планируемое кол-во рабочих мест',
+    head: true,
+  },
+  {
+    id: '1',
+    area: 'Ленинский район',
+    buildingArea: '14 705,5',
+    populationSize: '508 346',
+    jobSize: '243 300',
+  },
+  {
+    id: '2',
+    area: 'Застройка ПИК Котельники',
+    buildingArea: '1 175,23',
+    populationSize: '40 345',
+    jobSize: '33 547',
+  },
+  {
+    id: '3',
+    area: 'Красногорск',
+    buildingArea: '9 057,6',
+    populationSize: '259 000',
+    jobSize: '125 700',
+  },
+  {
+    id: '',
+    area: 'в т.ч. Путилковское шоссе (ЛРТ Митино) ',
+    buildingArea: '1 924,7',
+    populationSize: '62 390',
+    jobSize: '20 183',
+  },
+  {
+    id: '',
+    area: 'в т.ч. связка с Пятницким шоссе',
+    buildingArea: '906',
+    populationSize: '34 696',
+    jobSize: '7 635',
+  },
+  {
+    id: '4',
+    area: 'Домодедово',
+    buildingArea: '6 581,3',
+    populationSize: '209 479',
+    jobSize: '181 450 ',
+  },
+  {
+    id: '5',
+    area: 'Мытищи',
+    buildingArea: '4 018,8',
+    populationSize: '142 200',
+    jobSize: '88 200',
+  },
+  {
+    id: '6',
+    area: 'Одинцово',
+    buildingArea: '2 134,2',
+    populationSize: '73 400',
+    jobSize: '58,794',
+  },
+  {
+    id: '7',
+    area: 'Люберцы (ЛТКЖ, застройщик Самолёт)',
+    buildingArea: '',
+    populationSize: '',
+    jobSize: '',
+  },
+  {
+    text: 'Итого',
+    area: '32 746,80',
+    buildingArea: '1 120 377',
+    populationSize: '518 565',
+    itog: true,
+  },
+];
