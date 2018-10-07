@@ -11,8 +11,11 @@ import Page4 from './categories/Page4';
 class App extends Component {
   componentDidMount() {
     new fullpage('#fullpage', {
-      verticalCentered: true,
+      verticalCentered: false,
       scrollOverflow: true,
+      scrollBar: false,
+      paddingTop: '1em',
+      paddingBottom: '1em',
       anchors: [
         'Page1',
         'Page2',

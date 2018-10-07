@@ -1,6 +1,40 @@
 /* наброски для анимации */
+.section {
+  display: flex;
+  background-color: transparent;
+  animation: scaleDown 700ms ease both;;
+}
+
+.sectionBody {
+  margin: auto;
+  padding: 1em;
+  background-color: #fff;
+}
+
 .section.active {
-  /*animation: App-logo-spin 700ms linear;*/
+  animation: scaleDownShow 700ms ease both;;
+}
+
+@keyframes scaleDown {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(.8);
+  }
+}
+
+@keyframes scaleDownShow {
+  from {
+    opacity: 0;
+    transform: scale(.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes App-logo-spin {

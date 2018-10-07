@@ -1,6 +1,7 @@
 .App {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 2em 0;
 }
 
 .text-center {
@@ -41,17 +42,18 @@
 
 .title_count {
   margin-right: 30px !important;
-  margin-top: -0.3% !important;
   font-size: 200% !important;
   line-height: 1 !important;
 }
 
 .App .title_title{
+  width: 100%;
   margin: 0;
   padding: 4px 16px;
   background-color: #2a76dd;
   color: #fff !important;
   font-weight: 400;
+  text-align: center;
 }
 
 .table-1 {
