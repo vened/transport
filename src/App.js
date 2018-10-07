@@ -4,15 +4,20 @@ import fullpage from 'fullpage.js';
 import 'fullpage.js/dist/fullpage.css';
 
 import Page1 from './categories/Page1';
-
-import './css/white.css';
-import './css/main.css';
+import Page2 from './categories/Page2';
+import Page3 from './categories/Page3';
 
 class App extends Component {
   componentDidMount() {
     new fullpage('#fullpage', {
       verticalCentered: true,
       scrollOverflow: true,
+      anchors: [
+        'Page1',
+        'Page2',
+        'Page3',
+        'Page4',
+      ],
       licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
     });
 
@@ -24,6 +29,8 @@ class App extends Component {
     return (
       <div className="App" id="fullpage">
         <Page1 />
+        <Page2 />
+        <Page3 />
         <div className="section" id="section1">
           <div className="intro">white.css
             <h1>Section 2</h1>

@@ -12,8 +12,9 @@
 }
 
 .title {
+  margin: 0 0 32px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .title_count {
@@ -21,7 +22,14 @@
   margin-top: -0.3% !important;
   font-size: 200% !important;
   line-height: 1 !important;
-  color: #870E42;
+}
+
+.App .title_title{
+  margin: 0;
+  padding: 4px 16px;
+  background-color: #2a76dd;
+  color: #fff !important;
+  font-weight: 400;
 }
 
 .table-1 {
@@ -56,4 +64,8 @@
 
 .table-1_footer td:nth-child(1) {
   text-align: right !important;
+}
+
+.color1 {
+  color: #870E42;
 }
