@@ -33,7 +33,7 @@ const MainSlide = () => (
           на сумму
           <b className="color1"> 81,03 млрд. руб. </b>
           проектирование
-          <a href="#Page3/4"> подробнее</a>
+          <a href="#Page3/3"> подробнее</a>
         </li>
       </ul>
       <p>
