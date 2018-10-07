@@ -1,5 +1,5 @@
 .App {
-  max-width: 1280px;
+  max-width: calc(1280px + 2em);
   margin: 0 auto;
   padding: 2em 0;
 }
@@ -74,6 +74,7 @@
 .table-1 tr td:nth-child(3) {
   white-space: nowrap;
 }
+
 .table-1 tr th:nth-child(3) {
   white-space: nowrap;
 }
@@ -133,7 +134,30 @@
 .slideGridMap {
   width: 65%;
 }
-.slideGridMap img{
+
+.slideGridMap img {
   margin: 0;
   vertical-align: top;
+}
+
+.fp-controlArrow {
+  width: 22px !important;
+  height: 48px !important;
+  border: none !important;
+}
+
+.fp-prev {
+  background: url(../img/prev.svg) no-repeat 0 0;
+}
+
+.fp-controlArrow.fp-prev {
+  left: 0 !important;
+}
+
+.fp-next {
+  background: url(../img/next.svg) no-repeat 0 0;
+}
+
+.fp-controlArrow.fp-next {
+  right: 0 !important;
 }

@@ -12,8 +12,10 @@ class App extends Component {
   componentDidMount() {
     new fullpage('#fullpage', {
       verticalCentered: false,
-      scrollOverflow: true,
+      scrollOverflow: false,
       scrollBar: false,
+      navigation: true,
+      navigationPosition: 'right',
       anchors: [
         'Page1',
         'Page2',
