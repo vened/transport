@@ -103,6 +103,12 @@
 .color1 {
   color: #870E42;
 }
+
+.fp-slide{
+  float: none !important;
+  display: inline-block !important;
+  vertical-align: middle;
+}
 .slideGrid {
   display: flex;
   align-items: center;
