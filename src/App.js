@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'fullpage.js/vendors/scrolloverflow';
 import fullpage from 'fullpage.js';
 import 'fullpage.js/dist/fullpage.css';
+import 'antd/dist/antd.css';
 
 import Page1 from './categories/Page1';
 import Page2 from './categories/Page2';
