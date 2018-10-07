@@ -5,7 +5,7 @@ import 'fullpage.js/dist/fullpage.css';
 
 import Page1 from './categories/Page1';
 import Page2 from './categories/Page2';
-import Page3 from './categories/Page3';
+import Category1 from './categories/Category1/Category1';
 import Page4 from './categories/Page4';
 
 class App extends Component {
@@ -14,8 +14,6 @@ class App extends Component {
       verticalCentered: false,
       scrollOverflow: true,
       scrollBar: false,
-      paddingTop: '1em',
-      paddingBottom: '1em',
       anchors: [
         'Page1',
         'Page2',
@@ -34,7 +32,7 @@ class App extends Component {
       <div className="App" id="fullpage">
         <Page1 />
         <Page2 />
-        <Page3 />
+        <Category1 />
         <Page4 />
       </div>
     );
