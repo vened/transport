@@ -84,7 +84,7 @@ class Slide2_1 extends PureComponent {
                     key={item.id}
                     content={
                       <div className="tooltipContent">
-                        <p>{item.text}</p>
+                        <p><b>{item.id}.</b> {item.text}</p>
                         <p className="color1">
                           Стоимость: <b>{item.price2} млрд. руб.</b>
                         </p>
