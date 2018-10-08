@@ -2,7 +2,10 @@ import { Icon } from 'antd';
 import React from 'react';
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
-import { DataCategory1_slide_1_3 } from '../../../stubs/DataCategory1_slide_1_3';
+import DataCategory1_1 from '../../../stubs/DataCategory1_1';
+import { getArrayFromArray } from '../../../helpers/getArrayFromArray';
+
+const data = getArrayFromArray(DataCategory1_1, 11, 22);
 
 const Slide1_3 = () => (
   <div className="slide active" id="Category1_Slide1_3">
@@ -12,8 +15,8 @@ const Slide1_3 = () => (
       </Title>
 
       <Table
-        className="Table2"
-        data={DataCategory1_slide_1_3}
+        className="Table2 TableCategory1Slide_1"
+        data={data}
         cells={[
           'id',
           'text',

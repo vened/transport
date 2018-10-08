@@ -2,13 +2,13 @@ import { Icon } from 'antd';
 import React from 'react';
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
-import DataCategory1_2 from '../../../stubs/DataCategory1_2';
+import DataCategory1_1 from '../../../stubs/DataCategory1_1';
 import { getArrayFromArray } from '../../../helpers/getArrayFromArray';
 
-const data = getArrayFromArray(DataCategory1_2, 10, 20);
+const data = getArrayFromArray(DataCategory1_1, 22, 32);
 
-const Slide2_2 = () => (
-  <div className="slide active" id="Category1_Slide2_3">
+const Slide1_4 = () => (
+  <div className="slide active" id="Category1_Slide1_3">
     <div className="sectionBody">
       <Title variant3>
         Приложение 1
@@ -32,4 +32,4 @@ const Slide2_2 = () => (
   </div>
 );
 
-export default Slide2_2;
+export default Slide1_4;

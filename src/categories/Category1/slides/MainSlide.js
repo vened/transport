@@ -29,10 +29,10 @@ const MainSlide = () => (
                 Cтроительство
               </div>
               <div>
-                <b className="color1">23 объекта</b>
+                <b className="color1">30 объектов</b>
               </div>
               <div>
-                <b className="color1">63,98 млрд.руб.</b>
+                <b className="color1">74,51 млрд.руб.</b>
               </div>
               <div className="Category1InfoMore">
                 <a href="#Category1/1">подробнее</a>
@@ -46,13 +46,13 @@ const MainSlide = () => (
                 Проектирование
               </div>
               <div>
-                <b className="color1">39 объектов </b>
+                <b className="color1">34 объекта</b>
               </div>
               <div>
-                <b className="color1">81,03 млрд. руб. </b>
+                <b className="color1">91,4 млрд. руб. </b>
               </div>
               <div className="Category1InfoMore">
-                <a href="#Category1/3"> подробнее</a>
+                <a href="#Category1/5"> подробнее</a>
               </div>
             </div>
           </div>
@@ -60,9 +60,9 @@ const MainSlide = () => (
         <p>
           <b>
             ВСЕГО
-            <span className="color1"> 62 объекта </span>
+            <span className="color1"> 64 объекта </span>
             на сумму
-            <span className="color1"> 145 млрд. руб.</span>
+            <span className="color1"> 165,91 млрд. руб.</span>
           </b>
         </p>
       </div>

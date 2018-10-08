@@ -26,9 +26,15 @@
   border-bottom: 3px solid;
   line-height: 1.2;
 }
+
 .Category1InfoMore a:hover {
   border-bottom: 3px solid transparent;
 }
-.App .Category1_Slide2_2Table{
+
+.App .Category1_Slide2_2Table {
   font-size: 0.45em;
+}
+
+.TableCategory1Slide_1 tr td:nth-child(3) {
+  white-space: nowrap;
 }

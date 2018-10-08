@@ -4,11 +4,10 @@ import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
 import DataCategory1_2 from '../../../stubs/DataCategory1_2';
 import { getArrayFromArray } from '../../../helpers/getArrayFromArray';
+const data = getArrayFromArray(DataCategory1_2, 29, 37);
 
-const data = getArrayFromArray(DataCategory1_2, 10, 20);
-
-const Slide2_2 = () => (
-  <div className="slide active" id="Category1_Slide2_3">
+const Slide2_4 = () => (
+  <div className="slide active" id="Category1_Slide2_4">
     <div className="sectionBody">
       <Title variant3>
         Приложение 1
@@ -32,4 +31,4 @@ const Slide2_2 = () => (
   </div>
 );
 
-export default Slide2_2;
+export default Slide2_4;

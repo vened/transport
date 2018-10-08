@@ -4,10 +4,10 @@ import {
   Icon,
 } from 'antd';
 import Title from '../../../components/Title/Title';
-import img from '../assets/slideGridMap_Category1_Slide2_1.jpg';
-import { DataCategory1_Slide2 } from '../../../stubs/DataCategory1';
+import img from '../assets/slideGridMap_Category1_Slide2_1-v2.jpg';
+import DataCategory from '../../../stubs/DataCategory1_2';
 
-const initialState = DataCategory1_Slide2.map((item) => {
+const initialState = DataCategory.map((item) => {
   return {
     id: item.id,
     text: item.text,
@@ -26,7 +26,7 @@ class Slide2_1 extends PureComponent {
   };
 
   hide = (currentItem) => {
-    const popovers = DataCategory1_Slide2.map((item) => {
+    const popovers = DataCategory.map((item) => {
       return {
         ...item,
         show: false,
@@ -36,7 +36,7 @@ class Slide2_1 extends PureComponent {
   };
 
   handleVisibleChange = (visible, currentItem) => {
-    const popovers = DataCategory1_Slide2.map((item) => {
+    const popovers = DataCategory.map((item) => {
       if (currentItem.id === item.id) {
         return {
           ...item,
@@ -67,7 +67,7 @@ class Slide2_1 extends PureComponent {
                 Проектируемые объекты
               </div>
               <div className="slideGridSidebar_text">
-                <a href="#Category1/4">
+                <a href="#Category1/5">
                   Подробная таблица
                 </a>
               </div>
