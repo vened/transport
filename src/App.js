@@ -17,8 +17,8 @@ import Category7 from './categories/Category7/Category7';
 class App extends Component {
   componentDidMount() {
     new fullpage('#fullpage', {
-      verticalCentered: false,
-      scrollOverflow: false,
+      verticalCentered: true,
+      scrollOverflow: true,
       scrollBar: false,
       navigation: true,
       navigationPosition: 'right',
