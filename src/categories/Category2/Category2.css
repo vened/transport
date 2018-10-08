@@ -1,3 +1,26 @@
-.Category2Title{
+.Category2Title {
   /*margin: 0;*/
+}
+
+.slideGrid_Category3_Slide1_6 {
+  align-items: flex-start;
+}
+
+.slideGrid_Category3_Slide1_6 .slideGridSidebar {
+  font-size: 0.7em;
+  width: 50%;
+  text-align: left;
+}
+
+.slideGrid_Category3_Slide1_6 .slideGridMap {
+  width: 50%;
+}
+
+.slideCategory3_Slide1_8 {
+  font-size: 0.6em;
+  text-align: left;
+}
+
+.slideCategory3_Slide1_8IMG{
+  text-align: center;
 }

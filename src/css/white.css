@@ -118,7 +118,7 @@ body {
 .App ul {
   display: block;
   text-align: left;
-  margin: 0 0 0 0.5em;
+  margin: 0 0 0 15px;
 }
 
 .App ol li,
@@ -147,7 +147,7 @@ body {
 .App ol ol,
 .App ol ul {
   display: block;
-  margin-left: 40px;
+  margin-left: 15px;
 }
 
 .App dt {
@@ -155,7 +155,7 @@ body {
 }
 
 .App dd {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .App blockquote {
