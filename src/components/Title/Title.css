@@ -6,7 +6,6 @@
 
 .TitleCount {
   width: 60px;
-  margin-top: 24px;
   margin-right: 24px !important;
   font-size: 3em !important;
   line-height: 1 !important;
@@ -22,7 +21,7 @@
   background-color: #0082b3;
   color: #fff;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.3;
   text-align: left;
 }
 
@@ -65,4 +64,8 @@
   line-height: 1.2;
   font-weight: 600;
   font-size: 1.6em;
+}
+
+.App .TitleVariant6 .TitleTitle {
+  font-size: 1.15em;
 }

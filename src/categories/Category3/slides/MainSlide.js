@@ -10,8 +10,9 @@ const MainSlide = () => (
     <div className="sectionBody">
       <div className="slideGrid">
         <div className="slideGridSidebar">
-          <Title count={3} className="Category3SidebatTitle">
-            Строительство дорог к точкам роста экономики
+          <Title count={3} variant6 className="Category3SidebatTitle">
+            Развитие основных магистралей: вылетных и хордовых направлений
+            (Федеральных и региональных)
           </Title>
 
           <div className="Category3SidebatText">
