@@ -3,6 +3,7 @@ import {
   Popover,
   Icon,
 } from 'antd';
+import Title from '../../../components/Title/Title';
 import img from '../assets/slideGridMap_Category1_Slide1_1.jpg';
 import { DataCategory1_Slide1 } from '../../../stubs/DataCategory1';
 
@@ -57,11 +58,9 @@ class Slide1_1 extends PureComponent {
         <div className="sectionBody">
           <div className="slideGrid">
             <div className="slideGridSidebar">
-              <div className="sectionTitle">
-                <h3>
-                  Приложение 1
-                </h3>
-              </div>
+              <Title variant4>
+                Приложение 1
+              </Title>
               <div className="slideGridSidebar_text slideGridSidebar_text_blue_bg">
                 Неотложные меры по строительству и реконструкции региональных автомобильных дорог и транспортных сооружений
               </div>

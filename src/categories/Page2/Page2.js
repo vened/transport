@@ -1,14 +1,13 @@
 import React from 'react';
 import './Page2.css';
+import Title from '../../components/Title/Title';
 
 const Page2 = () => (
   <section className="section text-center">
     <div className="sectionBody">
-      <div className="sectionTitle">
-        <h2>
-          Основные мероприятия по реализации транспортной стратегии
-        </h2>
-      </div>
+      <Title variant5>
+        Основные мероприятия по реализации транспортной стратегии
+      </Title>
 
       <div className="Page2List">
         <div className="Page2ListItem">

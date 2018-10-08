@@ -59,11 +59,3 @@
 .App .Table .TableItogProject td:nth-child(2) {
   text-align: right;
 }
-
-.table-1_footer td:nth-child(1),
-.table-1_footer_lite td:nth-child(1) {
-  text-align: right !important;
-}
-
-
-
