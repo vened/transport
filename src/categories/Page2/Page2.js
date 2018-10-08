@@ -5,7 +5,6 @@ import Title from '../../components/Title/Title';
 const Page2 = () => (
   <section className="section text-center">
     <div className="sectionBody">
-      <div className="slideGridCategoryAll">
         <Title variant5>
           Основные мероприятия по реализации транспортной стратегии
         </Title>
@@ -73,7 +72,6 @@ const Page2 = () => (
             </div>
           </div>
         </div>
-      </div>
     </div>
   </section>
 );
