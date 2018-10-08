@@ -8,7 +8,7 @@ const Slide1_4 = () => (
   <div className="slide" id="Category3_Slide1_4">
     <div className="sectionBody">
       <Title variant3>
-        Приложение 2
+        Перечень автомобильных дорог к точкам роста
       </Title>
 
       <Table

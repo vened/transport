@@ -7,7 +7,7 @@ const Slide1_5 = () => (
   <div className="slide" id="Category3_Slide1_7">
     <div className="sectionBody">
       <Title>
-        Точка роста Шереметьево
+        Точка роста Домодедово
       </Title>
     </div>
 
