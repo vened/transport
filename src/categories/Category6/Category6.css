@@ -1,18 +1,23 @@
 .Category6Title h4{
-  font-size: 1em !important;
+  font-size: 0.9em !important;
   line-height: 1.4 !important;
 }
 
-.slideGridCategory6 .slideGrid{
+.slideGridCategory6{
   position: relative;
+  height: 897px;
+  width: 1470px;
 }
-.slideGridCategory6 .slideGridSidebar{
-  position: relative;
-  z-index: 2;
-  width: 30%;
-}
-.slideGridCategory6 .slideGridMap{
-  position: relative;
+.slideGridCategory6Sidebar{
+  position: absolute;
+  left: 0;
+  top: 180px;
   z-index: 3;
-  width: 70%;
+  width: 420px;
+}
+.slideGridCategory6Map{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
 }

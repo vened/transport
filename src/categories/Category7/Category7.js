@@ -6,14 +6,14 @@ import './Category7.css';
 const Category7 = () => (
   <section className="section">
     <div className="sectionBody">
-      <div className="slideGrid slideGridCategory7">
-        <div className="slideGridSidebar">
+      <div className="slideGridCategory7">
+        <div className="slideGridCategory7Sidebar">
           <Title count={7} className="Category7Title">
-            Реконструкция объектов транспортной инфраструктуры на территории г. Москвы и МО (развязки МКАД), установление красных линий ЛРТ
-            в точках состыковки с будущими линиями Московского метрополитена
+            Утверждение красных линий планируемых транспортных инфраструктур (региональных транспортных коридоров, автомобильных дорог I –
+            III категории, ЛРТ)
           </Title>
         </div>
-        <div className="slideGridMap slideGridMap_Category7">
+        <div className="slideGridCategory7Map">
           <img src={img} alt="" />
         </div>
       </div>
