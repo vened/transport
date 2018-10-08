@@ -4,11 +4,11 @@
   padding: 2em 0;
 }
 
-.slideGridCategoryAll{
+.slideGridCategoryAll {
   max-width: 1470px;
 }
 
-.categoryBody{
+.categoryBody {
   padding-left: 84px;
 }
 
@@ -24,10 +24,23 @@
   color: #1a4c91;
 }
 
+.fp-slidesContainer {
+  display: table !important;
+}
+
 .fp-slide {
-  float: none !important;
-  display: inline-block !important;
+  /*display: inline-block !important;*/
   vertical-align: middle;
+  /*background-color: rgba(0, 0, 0, .1);*/
+  /*display: flex !important;*/
+  /*position: relative;*/
+  /*margin-top: 50% !important;*/
+  /*transform: translateY(-50%) !important;*/
+  display: table-cell !important;
+  /*vertical-align: middle;*/
+  float: none !important;
+  /*display: inline-block !important;*/
+  /*vertical-align: middle;*/
 }
 
 .slideGrid {
