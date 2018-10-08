@@ -1,0 +1,28 @@
+import React from 'react';
+import Title from '../../../components/Title/Title';
+import Table from '../../../components/Table/Table';
+import { DataCategory5 } from '../../../stubs/DataCategory5';
+
+const MainSlide = () => (
+  <div className="slide active" id="Category5_MainSlide">
+    <div className="sectionBody">
+      <Title count={5} className="Category5Title">
+        Развитие транспортной инфраструктуры вблизи крупных жилых застроек / районов
+      </Title>
+      <div className="categoryBody">
+        <Table
+          data={DataCategory5}
+          cells={[
+            'id',
+            'area',
+            'buildingArea',
+            'populationSize',
+            'jobSize',
+          ]}
+        />
+      </div>
+    </div>
+  </div>
+);
+
+export default MainSlide;
