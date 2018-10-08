@@ -82,7 +82,7 @@ class MainSlide extends PureComponent {
 
             </div>
 
-            <div className="slideGridMap slideGridMap_Category1_Slide2_1">
+            <div className="slideGridMap Category2_MainSlide">
               <img src={img} alt="" />
 
               {this.state.popovers.map((item) => {

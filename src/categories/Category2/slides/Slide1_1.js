@@ -27,7 +27,7 @@ const Slide1_1 = () => (
         <span className="goAeroportText">
           Аэропорт
           <br />
-          Домодедово
+          Шереметьево
           <br />
           подробнее...
         </span>

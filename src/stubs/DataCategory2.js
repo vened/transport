@@ -106,7 +106,7 @@ export const DataCategory2 = [
   {
     id: 11,
     text: 'Патриот',
-    price: null,
+    price: '23,3',
     width: '30px',
     height: '30px',
     top: '45%',
@@ -115,7 +115,7 @@ export const DataCategory2 = [
   {
     id: 12,
     text: 'Инновационный «Центр Жуковский»',
-    price: null,
+    price: '10,12',
     width: '30px',
     height: '30px',
     top: '42.6%',
@@ -124,7 +124,7 @@ export const DataCategory2 = [
   {
     id: 13,
     text: 'Инновационный Центр «Сколково»',
-    price: null,
+    price: '3,89',
     width: '30px',
     height: '30px',
     top: '42%',
@@ -164,7 +164,7 @@ export const DataCategory2 = [
   {
     id: 17,
     text: 'Кашира (планируемый)',
-    price: null,
+    price: '17,9',
     width: '30px',
     height: '30px',
     top: '64%',
@@ -190,7 +190,7 @@ export const DataCategory2 = [
   },
   {
     text: 'Итого',
-    price: '425,24',
+    price: '480,45',
     itog: true,
   },
 ];

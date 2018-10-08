@@ -49,7 +49,7 @@ export const DataCategory3_slide_1 = [
   },
   {
     name: 'Итого',
-    price: '51,68',
+    price: '52,08',
     itog: true,
   },
   {

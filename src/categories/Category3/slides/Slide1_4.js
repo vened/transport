@@ -2,10 +2,10 @@ import React from 'react';
 import { Icon } from 'antd';
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
-import { DataCategory3_slide_1 } from '../../../stubs/DataCategory3_slide_1';
+import { DataCategory3_slide_2 } from '../../../stubs/DataCategory3_slide_2';
 import { getArrayFromArray } from '../../../helpers/getArrayFromArray';
 
-const data = getArrayFromArray(DataCategory3_slide_1, 7, 20);
+const data = getArrayFromArray(DataCategory3_slide_2, 9, 22);
 
 const Slide1_1 = () => (
   <div className="slide" id="Category3_Slide1">
