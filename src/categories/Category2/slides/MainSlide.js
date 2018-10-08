@@ -65,6 +65,7 @@ class MainSlide extends PureComponent {
               </Title>
 
               <Table
+                className="Table3"
                 data={DataCategory2}
                 cells={[
                   'id',

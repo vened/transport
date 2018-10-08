@@ -12,6 +12,7 @@ const MainSlide = () => (
       </Title>
       <div className="categoryBody">
         <Table
+          className="Table2"
           data={DataCategory5}
           cells={[
             'id',

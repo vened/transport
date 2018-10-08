@@ -13,6 +13,7 @@ const Slide1_1 = () => (
       </Title>
 
       <Table
+        className="Table2"
         data={DataCategory2_Slide_1}
         cells={[
           'id',

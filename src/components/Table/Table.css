@@ -4,6 +4,14 @@
   background-color: #e6f1fc;
 }
 
+.App .Table2{
+  font-size: 0.7em;
+}
+
+.App .Table3{
+  font-size: 0.65em;
+}
+
 .App .Table .TableRowTitle td {
   background-color: #86a3cb !important;
   text-align: center;

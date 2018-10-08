@@ -14,17 +14,15 @@ import './Category2.css';
 const Category2 = () => (
   <section className="section">
     <div className="sectionBody">
-      <div className="slideGridCategoryAll">
-        <MainSlide />
-        <Slide1_1 />
-        <Slide1_2 />
-        <Slide1_3 />
-        <Slide1_4 />
-        <Slide1_5 />
-        <Slide1_6 />
-        <Slide1_7 />
-        <Slide1_8 />
-      </div>
+      <MainSlide />
+      <Slide1_1 />
+      <Slide1_2 />
+      <Slide1_3 />
+      <Slide1_4 />
+      <Slide1_5 />
+      <Slide1_6 />
+      <Slide1_7 />
+      <Slide1_8 />
     </div>
   </section>
 );

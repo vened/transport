@@ -15,7 +15,7 @@ const Category4Slide1_1 = () => (
       <div className="slideGrid">
         <div className="slideGridSidebar" style={{width: "auto"}}>
           <Table
-            className="Category4Table"
+            className="Table2"
             data={DataCategory4}
             cells={[
               'id',
