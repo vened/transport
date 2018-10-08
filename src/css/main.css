@@ -29,6 +29,7 @@
 }
 
 .fp-slide {
+  position: relative;
   /*display: inline-block !important;*/
   /*vertical-align: middle;*/
   /*background-color: rgba(0, 0, 0, .1);*/
@@ -85,10 +86,13 @@
   bottom: 24px;
   width: 52px !important;
   height: 52px !important;
-  border: 2px solid #ccc !important;
+  border: 2px solid #666 !important;
   border-radius: 50%;
   background-color: #fff;
   opacity: 0.8;
+  color: #666;
+  text-align: center;
+  line-height: 52px;
 }
 
 .App .fp-controlArrow:hover,
@@ -115,6 +119,26 @@
   right: 50%;
   margin-right: -100px;
 }
+
+.App .fp-controlArrow.fp-back {
+  opacity: 0;
+  right: 50%;
+  margin-right: -26px;
+}
+
+.section.fp-section.active .fp-controlArrow.fp-back,
+.slide.fp-slide.active .fp-controlArrow.fp-back{
+  opacity: 0;
+  animation: showBack 100ms linear both;
+  animation-delay: 700ms;
+}
+
+@keyframes showBack {
+  to {
+    opacity: 0.8;
+  }
+}
+
 
 .ant-popover-inner {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45) !important;

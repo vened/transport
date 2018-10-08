@@ -1,3 +1,4 @@
+import { Icon } from 'antd';
 import React from 'react';
 import Title from '../../components/Title/Title';
 import img from './assets/category6.jpg';
@@ -18,6 +19,9 @@ const Category6 = () => (
         </div>
       </div>
     </div>
+    <a className="fp-controlArrow fp-back" href="#Page2">
+      <Icon type="rollback" theme="outlined" />
+    </a>
   </section>
 );
 

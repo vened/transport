@@ -110,6 +110,10 @@ class Slide1_1 extends PureComponent {
             </div>
           </div>
         </div>
+
+        <a className="fp-controlArrow fp-back" href="#Category1">
+          <Icon type="rollback" theme="outlined" />
+        </a>
       </div>
     );
   }

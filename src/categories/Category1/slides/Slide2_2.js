@@ -1,3 +1,4 @@
+import { Icon } from 'antd';
 import React from 'react';
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
@@ -11,6 +12,7 @@ const Slide2_2 = () => (
       </Title>
 
       <Table
+        className="Category1_Slide2_2Table"
         data={DataCategory1_Slide2}
         cells={[
           'id',
@@ -20,6 +22,10 @@ const Slide2_2 = () => (
         ]}
       />
     </div>
+
+    <a className="fp-controlArrow fp-back" href="#Category1">
+      <Icon type="rollback" theme="outlined" />
+    </a>
   </div>
 );
 

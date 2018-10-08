@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import cn from 'classnames';
 import './Table.css';
 
 const TableHead = ({ rowData, cells }) => {
@@ -60,10 +61,13 @@ const RenderRow = ({ classNames, rowData, cells }) => {
   return <Row rowData={rowData} cells={cells} />;
 };
 
-const Table = ({ data, cells }) => {
-  console.log(cells);
+const Table = ({ data, cells, className }) => {
+  const classNames = cn(
+    'Table',
+    className,
+  );
   return (
-    <table className="Table">
+    <table className={classNames}>
       {data.map((item) => {
         return (
           <RenderRow rowData={item} cells={cells} />

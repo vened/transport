@@ -1,3 +1,4 @@
+import { Icon } from 'antd';
 import React from 'react';
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
@@ -20,6 +21,10 @@ const Slide1_2 = () => (
         ]}
       />
     </div>
+
+    <a className="fp-controlArrow fp-back" href="#Category1">
+      <Icon type="rollback" theme="outlined" />
+    </a>
   </div>
 );
 
