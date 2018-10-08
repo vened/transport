@@ -1,11 +1,12 @@
 .Title {
   margin: 0 0 2em;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .TitleCount {
   width: 60px;
+  margin-top: 24px;
   margin-right: 24px !important;
   font-size: 3em !important;
   line-height: 1 !important;

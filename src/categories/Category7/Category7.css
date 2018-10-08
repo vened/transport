@@ -1,0 +1,23 @@
+.Category7Title h4{
+  font-size: 1em !important;
+  line-height: 1.4 !important;
+}
+
+.slideGridCategory7 .slideGrid{
+  position: relative;
+}
+.slideGridCategory7 .slideGridSidebar{
+  position: relative;
+  z-index: 2;
+  width: 30%;
+}
+.slideGridCategory7 .slideGridMap{
+  position: relative;
+  z-index: 3;
+  width: 70%;
+}
+
+.slideGridMap_Category7{
+  height: auto !important;
+  max-height: 100vh !important;
+}

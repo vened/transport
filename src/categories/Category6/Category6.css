@@ -1,0 +1,18 @@
+.Category6Title h4{
+  font-size: 1em !important;
+  line-height: 1.4 !important;
+}
+
+.slideGridCategory6 .slideGrid{
+  position: relative;
+}
+.slideGridCategory6 .slideGridSidebar{
+  position: relative;
+  z-index: 2;
+  width: 30%;
+}
+.slideGridCategory6 .slideGridMap{
+  position: relative;
+  z-index: 3;
+  width: 70%;
+}
