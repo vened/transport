@@ -8,6 +8,7 @@ const Title = (props) => {
     'Title',
     props.className,
     { 'TitleVariant2': props.variant2 },
+    { 'TitleVariant3': props.variant3 },
   );
 
   return (
@@ -26,6 +27,7 @@ const Title = (props) => {
 
 Title.propTypes = {
   variant2: PropTypes.bool,
+  variant3: PropTypes.bool,
   className: PropTypes.string,
   count: PropTypes.string,
   children: PropTypes.node.isRequired,

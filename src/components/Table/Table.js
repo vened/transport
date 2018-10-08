@@ -39,6 +39,9 @@ const RenderRow = ({ classNames, rowData, cells }) => {
   if (rowData.rowTitle) {
     return <Row rowData={rowData} cells={cells} classNames="TableRowTitle" />;
   }
+  if (rowData.project) {
+    return <Row rowData={rowData} cells={cells} classNames="TableItogProject" />;
+  }
   if (rowData.itog) {
     return <Row rowData={rowData} cells={cells} classNames="TableItog" />;
   }

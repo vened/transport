@@ -11,7 +11,7 @@
 
 .App .Table th,
 .App .Table td {
-  padding: 4px 12px;
+  padding: 3px 12px;
   border-width: 1px;
   border-style: solid;
   border-color: #fff;
@@ -25,6 +25,15 @@
   color: #fff;
 }
 
+.App .Table td:nth-child(1) {
+  text-align: center;
+}
+
+.App .Table tr:nth-child(2n) td {
+  background-color: #cce2f9;
+}
+
+
 .App .Table .TableItog td{
   padding: 6px 12px;
   font-size: 1.3em !important;
@@ -35,6 +44,19 @@
 }
 
 .App .Table .TableItog td:nth-child(2) {
+  text-align: right;
+}
+
+.App .Table .TableItogProject td{
+  padding: 6px 12px;
+  font-size: 1.1em !important;
+  white-space: nowrap;
+  font-weight: bold !important;
+  background-color: #830f0f !important;
+  color: #fff;
+}
+
+.App .Table .TableItogProject td:nth-child(2) {
   text-align: right;
 }
 
