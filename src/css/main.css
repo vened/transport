@@ -32,36 +32,6 @@
   color: #870E42;
 }
 
-.title {
-  margin: 0 0 2em;
-  display: flex;
-  align-items: center;
-}
-
-.title_count {
-  margin-right: 30px !important;
-  font-size: 300% !important;
-  line-height: 1 !important;
-  font-weight: bold;
-  color: #1a4c91;
-}
-
-.App .title_title {
-  width: 100%;
-  margin: 0;
-  padding: 12px 25px;
-  border-radius: 25px 0 25px 0;
-  background-color: #0082b3;
-  color: #fff !important;
-  font-weight: 400;
-  text-align: left;
-}
-
-.table-1 {
-  font-size: 50% !important;
-  background-color: #e8f2fe;
-}
-
 .table-1 {
   font-size: 50% !important;
   background-color: #e6f1fc;

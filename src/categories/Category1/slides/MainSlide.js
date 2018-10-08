@@ -1,16 +1,12 @@
 import React from 'react';
+import Title from '../../../components/Title/Title';
 
 const MainSlide = () => (
   <div className="slide active" id="Category1_MainSlide">
     <div className="sectionBody">
-      <div className="title">
-        <b className="title_count">
-          1
-        </b>
-        <h4 className="title_title">
-          Неотложные меры по строительству и реконструкции региональных автомобильных дорог и транспортных сооружений
-        </h4>
-      </div>
+      <Title count={1}>
+        Неотложные меры по строительству и реконструкции региональных автомобильных дорог и транспортных сооружений
+      </Title>
       <p>
         Произведена проработка транспортной стратегии Московской области
         <br />

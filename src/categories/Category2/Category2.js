@@ -5,6 +5,7 @@ import MainSlide from './slides/MainSlide';
 // import Slide1_2 from './slides/Slide1_2';
 // import Slide2_1 from './slides/Slide2_1';
 // import Slide2_2 from './slides/Slide2_2';
+import './Category2.css';
 
 const Category2 = () => (
   <section className="section">

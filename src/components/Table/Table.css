@@ -1,0 +1,47 @@
+.App .Table{
+  width: 100%;
+  font-size: 0.5em;
+  background-color: #e6f1fc;
+}
+
+.App .Table .TableRowTitle td {
+  background-color: #86a3cb;
+  text-align: center;
+}
+
+.App .Table th,
+.App .Table td {
+  padding: 4px 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  vertical-align: middle;
+}
+
+.App .Table th {
+  padding: 12px;
+  text-align: center;
+  background-color: #1a4c91;
+  color: #fff;
+}
+
+.App .Table .TableItog td{
+  padding: 6px 12px;
+  font-size: 1.3em !important;
+  white-space: nowrap;
+  font-weight: bold !important;
+  background-color: #830f0f !important;
+  color: #fff;
+}
+
+.App .Table .TableItog td:nth-child(2) {
+  text-align: right;
+}
+
+.table-1_footer td:nth-child(1),
+.table-1_footer_lite td:nth-child(1) {
+  text-align: right !important;
+}
+
+
+
