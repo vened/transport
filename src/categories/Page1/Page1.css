@@ -1,0 +1,23 @@
+.Page1Head {
+  margin: 0 0 3em;
+}
+
+.App .Page1HeadTitle {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+.App .Page1Logo {
+  height: 5em;
+  margin: 0;
+}
+
+.App .Page1Title {
+  color: #1a4c91;
+}
+
+.Page1TitleHead {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
