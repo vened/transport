@@ -29,7 +29,7 @@ const MainSlide = () => (
             ]}
           />
 
-          <div className="slideGridSidebar_text">
+          <div className="slideGridSidebar_more">
             <a href="#Category3/1">
               Подробная таблица
             </a>

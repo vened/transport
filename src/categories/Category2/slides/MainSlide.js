@@ -10,6 +10,7 @@ const MainSlide = () => (
   <div className="slide active" id="Category2_MainSlide">
     <div className="sectionBody">
       <div className="slideGrid">
+
         <div className="slideGridSidebar">
           <Title count={2} variant6 className="Category2Title">
             Строительство дорог к точкам роста экономики
@@ -23,12 +24,22 @@ const MainSlide = () => (
               'price',
             ]}
           />
+
+          <div className="slideGridSidebar_more">
+            <a href="#Category2/1">
+              Подробная таблица
+            </a>
+          </div>
+
         </div>
+
         <div className="slideGridMap slideGridMap_Category1_Slide2_1">
           <img src={img} alt="" />
         </div>
+
       </div>
     </div>
+
     <a className="fp-controlArrow fp-back" href="#Page2">
       <Icon type="rollback" theme="outlined" />
     </a>

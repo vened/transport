@@ -7,9 +7,11 @@ const Page1 = () => (
     <div className="sectionBody">
       <div className="Page1Head">
         <h2 className="Page1HeadTitle">
-          Главное управление архитектуры
+          Министерство дорожно-транспортной инфраструктуры
           <br />
-          и градостроительства Московской Области
+          Московской области
+          <br />
+          Главархитектура Московской области
         </h2>
         <img
           className="Page1Logo"

@@ -123,8 +123,6 @@ export const DataCategory2 = [
 export const DataCategory2_Slide = [
   {
     text: 'Шереметьево',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -134,8 +132,7 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Белый Раст – «Хлебниково – Рогачево»\n',
-    ppt: '',
-    pmt: '',
+
     date: '',
     pir: '',
     width: '',
@@ -144,8 +141,8 @@ export const DataCategory2_Slide = [
   {
     id: 2,
     text: 'Западный обход г. Лобня\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
@@ -154,8 +151,8 @@ export const DataCategory2_Slide = [
   {
     id: 3,
     text: 'Хлебниково – Рогачево\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
@@ -164,8 +161,8 @@ export const DataCategory2_Slide = [
   {
     id: 4,
     text: ' А-104 «Москва – Дмитров – Дубна» – «Хлебниково – Рогачево» (северный обход г. Лобни)\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
@@ -174,8 +171,8 @@ export const DataCategory2_Slide = [
   {
     id: 5,
     text: '«Хлебниково – Рогачево» – «Шереметьево-1 – Шереметьево-2»\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
@@ -184,8 +181,8 @@ export const DataCategory2_Slide = [
   {
     id: 6,
     text: 'Подъезд к г. Лобня\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
@@ -194,8 +191,8 @@ export const DataCategory2_Slide = [
   {
     id: 7,
     text: 'Лобня – аэропорт Шереметьево\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
@@ -204,8 +201,8 @@ export const DataCategory2_Slide = [
   {
     id: 8,
     text: 'Обход Носово\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
@@ -214,8 +211,8 @@ export const DataCategory2_Slide = [
   {
     id: 9,
     text: 'Шереметьевское шоссе\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
@@ -224,8 +221,8 @@ export const DataCategory2_Slide = [
   {
     id: 10,
     text: 'А-104 «Москва – Дмитров – Дубна» – Павельцево – аэропорт Шереметьево\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
@@ -238,8 +235,8 @@ export const DataCategory2_Slide = [
   },
   {
     text: 'Домодедово',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -250,57 +247,57 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'ЦКАД – аэропорт Домодедово\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,150',
     width: '5,6',
     cmr: '6,8',
-    price: '',
+
   },
   {
     id: 2,
     text: 'М-4 «Дон» – Востряково – Подъезд к аэропорту Домодедово\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,68',
     width: '7,8',
     cmr: '7,6',
-    price: '',
+
   },
   {
     id: 3,
     text: 'Подольск – Домодедово – Раменское – ЦКАД\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,78',
     width: '32,9',
     cmr: '57,7',
-    price: '',
+
   },
   {
     id: 4,
     text: 'ЦКАД – аэропорт Домодедово\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '12',
     cmr: '2,5',
-    price: '',
+
   },
   {
     id: 5,
     text: 'Жирошкино - Новлянское - Кишкино\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,32',
     width: '16',
     cmr: '6,8',
-    price: '',
+
   },
   {
     text: 'Итого',
@@ -309,8 +306,6 @@ export const DataCategory2_Slide = [
   },
   {
     text: 'Жуковский',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -321,89 +316,93 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Аэродром ЛИИ им. Громова – «Подольск – Домодедово – Раменское – ЦКАД»\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,25',
     width: '7,4',
     cmr: '3,9',
-    price: '',
+
   },
   {
     id: 2,
     text: 'Подъезд к г. Жуковский (ответвление от автомобильной дороги «Подъезд к аэродрому ЛИИ им. Громова)\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,14',
     width: '2,1',
     cmr: '1,8',
-    price: '',
+
   },
   {
     id: 3,
     text: 'Лыткарино - Томилино - Красково - Железнодорожный\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '10',
     cmr: '',
-    price: '',
+
   },
   {
     id: 4,
     text: 'Москва - Жуковский\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,35',
     width: '8,8',
     cmr: '7,1',
-    price: '',
+
   },
   {
     id: 5,
     text: 'г. Жуковский, Туполевское шоссе\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,06',
     width: '1,9',
     cmr: '0,85',
-    price: '',
+
   },
   {
     id: 6,
     text: 'ул. Туполева\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,15',
     width: '3,1',
     cmr: '7,62',
-    price: '',
+
   },
   {
     id: 7,
     text: 'Подольск - Домодедово - Раменское - ЦКАД\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '0,15',
     width: '3,1',
     cmr: '7,62',
-    price: '',
+
   },
   {
     text: 'Итого',
     price: '32,2',
     itog: true,
   },
+];
+
+
+export const DataCategory2_Slide_1 = [
   {
     text: 'Кубинка',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -414,29 +413,29 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Кубинка - парк "Патриот"\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
     cmr: '18,2',
-    price: '',
+
   },
   {
     id: 2,
     text: 'М-1 "Беларусь" - аэропорт Кубинка (федеральная)\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '3 года',
     pir: '',
     width: '',
     cmr: '5,1',
-    price: '',
+
   },
   {
     text: 'Есипово',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -447,51 +446,51 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Транспортная развязка в разных уровнях на пересечении автомобильных дорог     М-10 «Россия» и «М-10 «Россия» - «Ложки – Поварово – Пятница»\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '2 года',
     pir: 'разрабатывается',
     width: '',
     cmr: '1,5',
-    price: '',
+
   },
   {
     id: 2,
     text: '«М-10 «Россия» - «Ложки – Поварово – Пятница»\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '06.2017-10.2018',
     pir: 'разработан',
     width: '',
     cmr: '0,74',
-    price: '',
+
   },
   {
     id: 3,
     text: 'Западный обход д.п. Поварово\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '2 года',
     pir: '0,14',
     width: '',
     cmr: '1,8',
-    price: '',
+
   },
   {
     id: 4,
     text: '"Ложки - Поварово - Пятница" - Гончары\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '1 год',
     pir: '0,0004',
     width: '',
     cmr: '0,056',
-    price: '',
+
   },
   {
     text: 'Белый Раст',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -502,40 +501,40 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'ЦКАД – Рогачево – граница Московской области\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '5 лет',
     pir: '3,8',
     width: '',
     cmr: '48,23',
-    price: '',
+
   },
   {
     id: 2,
     text: 'Белый Раст – «Хлебниково – Рогачево»\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '3 года',
     pir: '0,54',
     width: '',
     cmr: '10,9',
-    price: '',
+
   },
   {
     id: 3,
     text: 'Обход Балашихи М7 Волга ЦКАД (федеральная)\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
     cmr: '',
-    price: '',
+
   },
   {
     text: 'ТЛЦ Восточный',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -546,51 +545,51 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Восточный обход г. Электроугли\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '3 года',
     pir: '0,11',
     width: '',
     cmr: '2,2',
-    price: '',
+
   },
   {
     id: 2,
     text: 'Западный обход г. Электроугли\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '2 года',
     pir: '0,15',
     width: '',
     cmr: '1,9',
-    price: '',
+
   },
   {
     id: 3,
     text: 'Носовихинское шоссе\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '3 года',
     pir: '',
     width: '',
     cmr: '3,5',
-    price: '',
+
   },
   {
     id: 4,
     text: 'Западный обход г. Ногинска\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '4 года',
     pir: '0,76',
     width: '',
     cmr: '20,65',
-    price: '',
+
   },
   {
     text: 'Борилово',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -601,18 +600,18 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Подъезд к станции ВСМ "Ногинск« 4 индустриальных парка на карте\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: '',
     width: '',
     cmr: '0,6',
-    price: '',
+
   },
   {
     text: 'Северное Домодедово',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -623,40 +622,40 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Подольск – Домодедово\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '4 года',
     pir: '0,68',
     width: '',
     cmr: '10,2',
-    price: '',
+
   },
   {
     id: 2,
     text: 'Бутово – Щербинка – Домодедово\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '3 года',
     pir: '0,28',
     width: '',
     cmr: '7,3',
-    price: '',
+
   },
   {
     id: 3,
     text: 'Каширское шоссе км 0,0 - Ям\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '2018-2022',
     pir: '',
     width: '',
     cmr: '17,9',
-    price: '',
+
   },
   {
     text: 'Белые столбы',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -667,19 +666,19 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'ММК – ст. Белые Столбы\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '3 года',
     pir: '0,12',
     width: '',
     cmr: '2,1',
-    price: '',
+
   },
   {
     id: 2,
     text: 'Белые Столбы – Барыбино\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '2 года',
     pir: '0,07',
     width: '',
@@ -688,8 +687,8 @@ export const DataCategory2_Slide = [
   },
   {
     text: 'Дубна',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -700,8 +699,8 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Южный обход г. Дубны («Дубна – Юркино – Савёлово»)\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '3 года',
     pir: '0,17',
     width: '',
@@ -710,8 +709,6 @@ export const DataCategory2_Slide = [
   },
   {
     text: 'Фрязино Исток',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -722,8 +719,8 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Ивантеевка – Фрязино –А-103 «Щёлковское шоссе»\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '3 года',
     pir: '0,37',
     width: '',
@@ -733,8 +730,8 @@ export const DataCategory2_Slide = [
   {
     id: 2,
     text: 'Ивантеевка – Правдинский\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '3 года',
     pir: '0,26',
     width: '',
@@ -744,8 +741,8 @@ export const DataCategory2_Slide = [
   {
     id: 3,
     text: 'Щелково - Фряново\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '5 лет',
     pir: '0,35',
     width: '',
@@ -755,8 +752,8 @@ export const DataCategory2_Slide = [
   {
     id: 4,
     text: 'г. Фрязино, ул. Московская\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '1 год',
     pir: '0,012',
     width: '',
@@ -766,8 +763,8 @@ export const DataCategory2_Slide = [
   {
     id: 5,
     text: 'Пушкино - Ивантеевка - Фрязино - Щёлково - Лосино-Петровский - М-7 «Волга»\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '5 лет',
     pir: '0,63',
     width: '',
@@ -776,8 +773,8 @@ export const DataCategory2_Slide = [
   },
   {
     text: 'Ступино Квадрат',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -788,8 +785,8 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Псарево-Петрово на участке от М-4 «Дон» до транспортной развязки через ж/д пути \n',
-    ppt: '',
-    pmt: '',
+
+
     date: '',
     pir: 'разрабатывается',
     width: '',
@@ -799,8 +796,8 @@ export const DataCategory2_Slide = [
   {
     id: 2,
     text: 'Колычево – Верзилово – Малино\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '2 года',
     pir: '',
     width: '',
@@ -810,8 +807,8 @@ export const DataCategory2_Slide = [
   {
     id: 3,
     text: 'М-4 "Дон" - Ступино\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '2 года',
     pir: '',
     width: '',
@@ -821,8 +818,8 @@ export const DataCategory2_Slide = [
   {
     id: 4,
     text: 'Ступино - Малино\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '5 лет',
     pir: '',
     width: '',
@@ -832,8 +829,8 @@ export const DataCategory2_Slide = [
   {
     id: 5,
     text: 'Ступино - Коломна - Егорьевск - Деревнищи\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '4 года',
     pir: '',
     width: '',
@@ -843,8 +840,6 @@ export const DataCategory2_Slide = [
   {
     id: 6,
     text: 'Шугарово - Колычево - Дубнево\n',
-    ppt: '',
-    pmt: '',
     date: '1 год',
     pir: '',
     width: '',
@@ -853,8 +848,8 @@ export const DataCategory2_Slide = [
   },
   {
     text: 'ОЭЗ «Максимиха»',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
+
+
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
@@ -865,8 +860,8 @@ export const DataCategory2_Slide = [
   {
     id: 1,
     text: 'Каширское шоссе - Голубино\n',
-    ppt: '',
-    pmt: '',
+
+
     date: '2 года',
     pir: '',
     width: '',
@@ -875,37 +870,11 @@ export const DataCategory2_Slide = [
   },
   {
     text: 'Инновационный парк «Сколково»',
-    ppt: 'ППТ',
-    pmt: 'ПМТ',
     date: 'Сроки строительства',
     pir: 'ПИР',
     width: 'Протяженность',
     cmr: 'СМР',
     price: 'Стоимость, млрд. руб.',
     head: true,
-  },
-  {
-    text: 'Итого',
-    price: '82,4',
-    itog: true,
-  },
-  {
-    id: 2,
-    text: '',
-    price: '',
-  },
-  {
-    text: 'Точки роста',
-    rowTitle: true,
-  },
-  {
-    id: 5,
-    text: '',
-    price: '',
-  },
-  {
-    text: 'Итого',
-    price: '425,24',
-    itog: true,
   },
 ];

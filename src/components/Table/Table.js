@@ -19,12 +19,25 @@ const TableHead = ({ rowData, cells }) => {
   );
 };
 
-const Row = ({ classNames, rowData, cells, collspan }) => {
+const Row = ({ classNames, rowData, cells, collspan, itogCollspan }) => {
   if (collspan) {
     return (
       <tr className={classNames}>
         <td colSpan={collspan}>
           {rowData.text}
+        </td>
+      </tr>
+    );
+  }
+  if (itogCollspan) {
+    return (
+      <tr className={classNames}>
+        <td></td>
+        <td>
+          {rowData.text}
+        </td>
+        <td colSpan={itogCollspan}>
+          {rowData.price.value}
         </td>
       </tr>
     );
@@ -56,7 +69,7 @@ const RenderRow = ({ classNames, rowData, cells }) => {
     return <Row rowData={rowData} cells={cells} classNames="TableItogProject" />;
   }
   if (rowData.itog) {
-    return <Row rowData={rowData} cells={cells} classNames="TableItog" />;
+    return <Row rowData={rowData} cells={cells} classNames="TableItog" itogCollspan={rowData.price && rowData.price.collspan}/>;
   }
   return <Row rowData={rowData} cells={cells} />;
 };
