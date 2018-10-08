@@ -1,0 +1,35 @@
+.Category4Subtitle {
+  margin: 2em 0;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.Category4Body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Category4BodyLeft {
+  width: 50%;
+  flex-grow: 1;
+  flex-shrink: 2;
+  padding: 1.5em;
+  background-color: #1a4c91;
+  color: #fff;
+}
+
+.Category4BodyLeftTitle {
+  margin: 0 0 1em;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.Category4BodyRigth {
+  width: 50%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 1.5em;
+  border: 1px solid #1a4c91;
+}

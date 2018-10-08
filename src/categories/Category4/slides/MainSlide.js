@@ -3,7 +3,7 @@ import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
 import { DataCategory3 } from '../../../stubs/DataCategory3';
 
-import img from '../assets/category3.jpg';
+import img from '../assets/slide44.jpg';
 
 const MainSlide = () => (
   <div className="slide active" id="Category3_MainSlide">
