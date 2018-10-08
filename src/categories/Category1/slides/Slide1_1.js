@@ -75,6 +75,7 @@ class Slide1_1 extends PureComponent {
             </div>
             <div className="slideGridMap slideGridMap_Category1_Slide2_1">
               <img src={img} alt="" />
+
               {this.state.popovers.map((item) => {
                 if (!item.id) {
                   return null;
