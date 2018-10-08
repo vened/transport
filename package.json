@@ -6,7 +6,6 @@
     "antd": "^3.10.0",
     "classname": "^0.0.0",
     "fullpage.js": "^3.0.3",
-    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.0",
     "react": "^15.1.0",
@@ -18,8 +17,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "prebuild": "yarn run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
