@@ -25,9 +25,9 @@ class App extends Component {
       anchors: [
         'Page1',
         'Page2',
-        'Page3',
-        'Page4',
-        'Page5',
+        'Category1',
+        'Category2',
+        'Category3',
         'Category4',
         'Category5',
         'Category6',

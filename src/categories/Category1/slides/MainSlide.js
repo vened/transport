@@ -34,7 +34,7 @@ const MainSlide = () => (
                 <b className="color1">63,98 млрд.руб.</b>
               </div>
               <div className="Category1InfoMore">
-                <a href="#Page3/1">подробнее</a>
+                <a href="#Category1/1">подробнее</a>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ const MainSlide = () => (
                 <b className="color1">81,03 млрд. руб. </b>
               </div>
               <div className="Category1InfoMore">
-                <a href="#Page3/3"> подробнее</a>
+                <a href="#Category1/3"> подробнее</a>
               </div>
             </div>
           </div>

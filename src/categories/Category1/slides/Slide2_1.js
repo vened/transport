@@ -67,7 +67,7 @@ class Slide2_1 extends PureComponent {
                 Проектируемые объекты
               </div>
               <div className="slideGridSidebar_text">
-                <a href="#Page3/4">
+                <a href="#Category1/4">
                   Подробная таблица
                 </a>
               </div>
