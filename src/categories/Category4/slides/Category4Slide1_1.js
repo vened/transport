@@ -1,44 +1,37 @@
+import { Icon } from 'antd';
 import React from 'react';
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
-import { DataCategory3 } from '../../../stubs/DataCategory3';
+import { DataCategory4 } from '../../../stubs/DataCategory4';
 
-import img from '../assets/page_6_people.jpg';
+import img from '../assets/map.jpg';
 
 const Category4Slide1_1 = () => (
-  <div className="slide active" id="Category3_MainSlide">
+  <div className="slide active" id="Category4_Slide1_1">
     <div className="sectionBody">
+      <Title>
+        Строительство ТПУ на МЦД
+      </Title>
       <div className="slideGrid">
-        <div className="slideGridSidebar">
-          <Title count={3} className="Category3SidebatTitle">
-            Строительство дорог к точкам роста экономики
-          </Title>
-
-          <div className="Category3SidebatText">
-            Полная или частичная реконструкция с «расшивкой» проблемных участков. Хорды могут быть платные – через концессию или бесплатные
-            – для миграции трудовых ресурсов; наиболее эффективно - совместить с дорогами для точек роста.
-          </div>
-
+        <div className="slideGridSidebar" style={{width: "auto"}}>
           <Table
-            data={DataCategory3}
+            className="Category4Table"
+            data={DataCategory4}
             cells={[
+              'id',
               'text',
               'price',
             ]}
           />
-
-          <div className="slideGridSidebar_text">
-            <a href="#Category3/1">
-              Подробная таблица
-            </a>
-          </div>
-
         </div>
-        <div className="slideGridMap slideGridMap_Category1_Slide2_1">
+        <div className="slideGridMap slideGridMap_Category4_Slide1_1" style={{width: "auto"}}>
           <img src={img} alt="" />
         </div>
       </div>
     </div>
+    <a className="fp-controlArrow fp-back" href="#Category4">
+      <Icon type="rollback" theme="outlined" />
+    </a>
   </div>
 );
 

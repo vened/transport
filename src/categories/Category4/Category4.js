@@ -1,7 +1,7 @@
 import React from 'react';
 
 import MainSlide from './slides/MainSlide';
-// import Category4Slide1_1 from './slides/Category4Slide1_1';
+import Category4Slide1_1 from './slides/Category4Slide1_1';
 import './Category4.css';
 
 const Category4 = () => (
@@ -9,7 +9,7 @@ const Category4 = () => (
     <div className="sectionBody">
       <div className="slideGridCategoryAll">
         <MainSlide />
-        {/*<Category4Slide1_1 />*/}
+        <Category4Slide1_1 />
       </div>
     </div>
   </section>
