@@ -2,6 +2,7 @@ import React from 'react';
 
 import MainSlide from './slides/MainSlide';
 import Slide1_1 from './slides/Slide1_1';
+import Slide1_2 from './slides/Slide1_2';
 import './Category3.css';
 
 const Category3 = () => (
@@ -10,6 +11,7 @@ const Category3 = () => (
       <div className="slideGridCategoryAll">
         <MainSlide />
         <Slide1_1 />
+        <Slide1_2 />
       </div>
     </div>
   </section>
