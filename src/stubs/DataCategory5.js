@@ -67,16 +67,16 @@ export const DataCategory5 = [
   },
   {
     id: '7',
-    area: 'Люберцы (ЛТКЖ, застройщик Самолёт)',
-    buildingArea: '',
-    populationSize: '',
-    jobSize: '',
+    area: 'Люберцы',
+    buildingArea: '4 950',
+    populationSize: '165 000',
+    jobSize: '134 500',
   },
   {
     area: 'Итого',
-    buildingArea: '32 746,80',
-    populationSize: '1 120 377',
-    jobSize: '518 565',
+    buildingArea: '37 697',
+    populationSize: '1 285 377',
+    jobSize: '653 065',
     itog: true,
   },
 ];
