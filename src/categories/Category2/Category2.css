@@ -21,6 +21,28 @@
   text-align: left;
 }
 
-.slideCategory3_Slide1_8IMG{
+.slideCategory3_Slide1_8IMG {
   text-align: center;
+}
+
+.goAeroport {
+  display: flex !important;
+  width: 320px;
+  margin: 24px 0 0 0;
+  align-items: center;
+
+  padding: 0.5em 1em;
+  border-radius: 25px 0 25px 0;
+  background-color: #0082b3;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.goAeroportText {
+  display: block;
+  margin-left: 15px;
+  padding-top: 5px;
 }
