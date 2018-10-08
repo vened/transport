@@ -1,5 +1,5 @@
 .Page1Head {
-  margin: 0 0 3em;
+  margin: 0 0 6em;
 }
 
 .App .Page1HeadTitle {
@@ -13,9 +13,7 @@
   margin: 0;
 }
 
-.App .Page1Title {
-  color: #1a4c91;
-}
+.App .Page1Title {}
 
 .Page1TitleHead {
   font-size: 1.4em;

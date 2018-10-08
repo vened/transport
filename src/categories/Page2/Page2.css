@@ -1,0 +1,55 @@
+.Page2List {
+
+}
+
+.Page2ListItem {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+
+  text-align: left;
+  background-color: #9fdbf2;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.Page2ListItem a {
+  color: #037cab;
+}
+.Page2ListItem a:hover{
+  color: red !important;
+}
+
+.Page2ListItem:nth-child(2n) {
+  background-color: #93e2ff;
+}
+
+.Page2ListItem:nth-child(2n) a {
+  color: #1a4c91;
+}
+
+.Page2ListItem:nth-child(2n) .Page2ListItemLeft {
+  background-color: #1a4c91;
+}
+
+.Page2ListItemLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4em;
+  padding: 1em;
+  background-color: #0082b3;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Page2ListItemRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 10;
+  flex-shrink: 1000;
+  padding: 0.5em 1.2em;
+}

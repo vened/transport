@@ -16,10 +16,9 @@
   margin: 0 0 1em;
   padding: 0 0 0.2em;
   text-align: center;
-  border-bottom: 1px solid #ccc;
 }
 
-.sectionTitle h3 {
+.sectionTitle h2 {
   margin: 0;
   line-height: 1.2;
   font-weight: 600;

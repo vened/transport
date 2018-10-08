@@ -5,7 +5,7 @@ import 'fullpage.js/dist/fullpage.css';
 import 'antd/dist/antd.css';
 
 import Page1 from './categories/Page1/Page1';
-import Page2 from './categories/Page2';
+import Page2 from './categories/Page2/Page2';
 import Category1 from './categories/Category1/Category1';
 import Category2 from './categories/Category2/Category2';
 
