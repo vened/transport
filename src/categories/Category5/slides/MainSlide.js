@@ -21,6 +21,11 @@ const MainSlide = () => (
             'jobSize',
           ]}
         />
+        <div className="slideGridSidebar_more">
+          <a href="#Category5/1">
+            Подробная таблица
+          </a>
+        </div>
       </div>
     </div>
 

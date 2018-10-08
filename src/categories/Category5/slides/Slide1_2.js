@@ -2,9 +2,9 @@ import { Icon } from 'antd';
 import React from 'react';
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
-import { DataCategory5_slide_1 } from '../../../stubs/DataCategory5_slide_1';
+import { DataCategory5_slide_2 } from '../../../stubs/DataCategory5_slide_2';
 
-const Slide1_1 = () => (
+const Slide1_2 = () => (
   <div className="slide" id="Category5_Slide1">
     <div className="sectionBody">
       <Title variant3>
@@ -12,7 +12,7 @@ const Slide1_1 = () => (
       </Title>
 
       <Table
-        data={DataCategory5_slide_1}
+        data={DataCategory5_slide_2}
         cells={[
           'id',
           'name',
@@ -27,4 +27,4 @@ const Slide1_1 = () => (
   </div>
 );
 
-export default Slide1_1;
+export default Slide1_2;
