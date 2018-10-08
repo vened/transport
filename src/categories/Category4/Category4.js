@@ -7,8 +7,10 @@ import './Category4.css';
 const Category4 = () => (
   <section className="section">
     <div className="sectionBody">
-      <MainSlide />
-      {/*<Category4Slide1_1 />*/}
+      <div className="slideGridCategoryAll">
+        <MainSlide />
+        {/*<Category4Slide1_1 />*/}
+      </div>
     </div>
   </section>
 );

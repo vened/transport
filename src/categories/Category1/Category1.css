@@ -1,0 +1,31 @@
+.Category1InfoContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 2em 0;
+  line-height: 1.5;
+}
+
+.Category1InfoContainer_Item {
+  display: flex;
+  align-items: center;
+  margin: 0 2em;
+}
+
+.Category1InfoContainer_Item img {
+  width: 180px;
+  margin-right: 24px !important;
+}
+
+.Category1InfoTitle {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.Category1InfoMore a {
+  border-bottom: 3px solid;
+  line-height: 1.2;
+}
+.Category1InfoMore a:hover {
+  border-bottom: 3px solid transparent;
+}

@@ -4,6 +4,10 @@
   padding: 2em 0;
 }
 
+.slideGridCategoryAll{
+  max-width: 1470px;
+}
+
 .categoryBody{
   padding-left: 84px;
 }
@@ -17,7 +21,7 @@
 }
 
 .color1 {
-  color: #870E42;
+  color: #1a4c91;
 }
 
 .fp-slide {

@@ -1,5 +1,7 @@
 import React from 'react';
 import Title from '../../../components/Title/Title';
+import pic1 from '../assets/pic1.png';
+import pic2 from '../assets/pic2.png';
 
 const MainSlide = () => (
   <div className="slide active" id="Category1_MainSlide">
@@ -17,25 +19,47 @@ const MainSlide = () => (
           Текущие реализуемые объекты транспортной инфраструктуры в рамках госпрограммы «Дороги
           Подмосковья» первоочередные объекты МО:
         </p>
-        <ul style={{ margin: '1.5em 0 1.5em 0.5em' }}>
-          <li style={{ margin: '0.6em 0' }}>
-            <b className="color1">23 объекта </b>
-            на сумму
-            <b className="color1"> 63,98 млрд.руб. </b>
-            строительство
-            <a href="#Page3/1"> подробнее</a>
-          </li>
-          <li style={{ margin: '0.6em 0' }}>
-            <b className="color1">39 объектов </b>
-            на сумму
-            <b className="color1"> 81,03 млрд. руб. </b>
-            проектирование
-            <a href="#Page3/3"> подробнее</a>
-          </li>
-        </ul>
+
+        <div className="Category1InfoContainer">
+          <div className="Category1InfoContainer_Item">
+            <img src={pic1} alt="" />
+            <div>
+              <div className="Category1InfoTitle">
+                Cтроительство
+              </div>
+              <div>
+                <b className="color1">23 объекта</b>
+              </div>
+              <div>
+                <b className="color1">63,98 млрд.руб.</b>
+              </div>
+              <div className="Category1InfoMore">
+                <a href="#Page3/1">подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div className="Category1InfoContainer_Item">
+            <img src={pic2} alt="" />
+            <div>
+              <div className="Category1InfoTitle">
+                Проектирование
+              </div>
+              <div>
+                <b className="color1">39 объектов </b>
+              </div>
+              <div>
+                <b className="color1">81,03 млрд. руб. </b>
+              </div>
+              <div className="Category1InfoMore">
+                <a href="#Page3/3"> подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
         <p>
           <b>
-            <span className="color1">ИТОГО 63 объекта </span>
+            ВСЕГО
+            <span className="color1"> 63 объекта </span>
             на сумму
             <span className="color1"> 145 млрд. руб.</span>
           </b>

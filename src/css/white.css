@@ -24,7 +24,7 @@ body {
   /*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
   font-family: "Gotham Pro", Helvetica, sans-serif;
   font-size: 28px;
-  font-weight: normal;
+  font-weight: 400;
   color: #222;
 }
 
@@ -261,11 +261,13 @@ body {
  * LINKS
  *********************************************/
 .App a {
-  color: #2a76dd;
+  display: inline-block;
+  color: #1a4c91;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease;
+  font-weight: 500;
 }
 
 .App a:hover {
