@@ -5,8 +5,16 @@
 }
 
 .App .Table .TableRowTitle td {
-  background-color: #86a3cb;
+  background-color: #86a3cb !important;
   text-align: center;
+}
+
+.App .Table .TableRowTitle2 td {
+  padding: 12px;
+  background-color: #86a3cb !important;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .App .Table th,

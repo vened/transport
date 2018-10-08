@@ -9,7 +9,7 @@ const TableHead = ({ rowData, cells }) => {
       {cells.map((cell) => {
         return (
           <th>
-            <span dangerouslySetInnerHTML={{__html: rowData[cell]}} />
+            <span dangerouslySetInnerHTML={{ __html: rowData[cell] }} />
           </th>
         );
       })}
@@ -18,12 +18,21 @@ const TableHead = ({ rowData, cells }) => {
   );
 };
 
-const Row = ({ classNames, rowData, cells }) => {
+const Row = ({ classNames, rowData, cells, collspan }) => {
+  if (collspan) {
+    return (
+      <tr className={classNames}>
+        <td colSpan={collspan}>
+          {rowData.text}
+        </td>
+      </tr>
+    );
+  }
   return (
     <tr className={classNames}>
       {cells.map((cell) => {
         return (
-          <td>
+          <td colSpan={collspan}>
             {rowData[cell]}
           </td>
         );
@@ -35,6 +44,9 @@ const Row = ({ classNames, rowData, cells }) => {
 const RenderRow = ({ classNames, rowData, cells }) => {
   if (rowData.head) {
     return <TableHead rowData={rowData} cells={cells} />;
+  }
+  if (rowData.isTitle) {
+    return <Row rowData={rowData} cells={cells} classNames="TableRowTitle2" collspan={rowData.collspan} />;
   }
   if (rowData.rowTitle) {
     return <Row rowData={rowData} cells={cells} classNames="TableRowTitle" />;
