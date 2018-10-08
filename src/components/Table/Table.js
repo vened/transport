@@ -9,7 +9,7 @@ const TableHead = ({ rowData, cells }) => {
       {cells.map((cell) => {
         return (
           <th>
-            {rowData[cell]}
+            <span dangerouslySetInnerHTML={{__html: rowData[cell]}} />
           </th>
         );
       })}
