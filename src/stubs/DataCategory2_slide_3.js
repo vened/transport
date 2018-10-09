@@ -134,7 +134,7 @@ export const DataCategory2_slide_3 = [
     cmr: '<div>СМР,<br>млрд. руб.</div>',
     head: true,
   },
-  { id: 1, text: 'Каширское шоссе - Голубино', date: '2 года', pir: '', width: '', cmr: '0,96', price: '' },
+  { id: 1, text: 'Каширское шоссе - Голубино', date: '2 года', pir: '', width: '', cmr: '', price: '' },
   { text: 'Итого', price: { value: '', collspan: 3 }, itog: true },
   // {
   //   text: 'Инновационный парк «Сколково»',
