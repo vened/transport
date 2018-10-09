@@ -3,6 +3,9 @@ import { Icon } from 'antd';
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
 import { DataCategory2_slide_3 } from '../../../stubs/DataCategory2_slide_3';
+import { getArrayFromArrayNoHead } from '../../../helpers/getArrayFromArray';
+
+const data = getArrayFromArrayNoHead(DataCategory2_slide_3, 0, 17);
 
 const Slide1_1 = () => (
   <div className="slide" id="Category3_Slide1_3">
@@ -13,7 +16,7 @@ const Slide1_1 = () => (
 
       <Table
         className="Table2"
-        data={DataCategory2_slide_3}
+        data={data}
         cells={[
           'id',
           'text',

@@ -5,9 +5,9 @@ import Table from '../../../components/Table/Table';
 import { DataCategory2_slide_3 } from '../../../stubs/DataCategory2_slide_3';
 import { getArrayFromArrayNoHead } from '../../../helpers/getArrayFromArray';
 
-const data = getArrayFromArrayNoHead(DataCategory2_slide_3, 17, 34);
+const data = getArrayFromArrayNoHead(DataCategory2_slide_3, 34, 45);
 
-const Slide1_4 = () => (
+const Slide1_4_1 = () => (
   <div className="slide" id="Category3_Slide1_4">
     <div className="sectionBody">
       <Title variant3>
@@ -33,4 +33,4 @@ const Slide1_4 = () => (
   </div>
 );
 
-export default Slide1_4;
+export default Slide1_4_1;
