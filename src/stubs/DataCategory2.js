@@ -21,7 +21,7 @@ export const DataCategory2 = [
   {
     id: 2,
     text: 'Домодедово',
-    price: '82,4',
+    price: '157,6',
     width: '30px',
     height: '30px',
     top: '46.8%',
@@ -30,7 +30,7 @@ export const DataCategory2 = [
   {
     id: 3,
     text: 'Жуковский',
-    price: '32,2',
+    price: '75,3',
     width: '30px',
     height: '30px',
     top: '41.8%',
@@ -97,7 +97,7 @@ export const DataCategory2 = [
   {
     id: 10,
     text: 'Белые столбы',
-    price: '3,49',
+    price: '3,5',
     width: '24px',
     height: '24px',
     top: '49.2%',
@@ -137,7 +137,7 @@ export const DataCategory2 = [
   {
     id: 14,
     text: 'Дубна',
-    price: null,
+    price: '3,5',
     width: '30px',
     height: '30px',
     top: '4.4%',
@@ -191,6 +191,6 @@ export const DataCategory2 = [
   {
     text: 'Итого',
     price: '480,45',
-    itog: true,
+    itog: '598,81',
   },
 ];
