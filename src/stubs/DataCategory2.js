@@ -190,7 +190,7 @@ export const DataCategory2 = [
   },
   {
     text: 'Итого',
-    price: '480,45',
-    itog: '598,81',
+    price: '598,81',
+    itog: true,
   },
 ];
