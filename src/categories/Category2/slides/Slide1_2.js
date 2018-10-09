@@ -24,7 +24,7 @@ const Slide1_1 = () => (
         ]}
       />
 
-      <a className="goAeroport" href="#Category2/8">
+      <a className="goAeroport" href="#Category2/9">
         <img src={img2} alt="" width="80" />
         <span className="goAeroportText">
           Аэропорт

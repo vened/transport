@@ -5,10 +5,10 @@ import Table from '../../../components/Table/Table';
 import { DataCategory2_slide_3 } from '../../../stubs/DataCategory2_slide_3';
 import { getArrayFromArrayNoHead } from '../../../helpers/getArrayFromArray';
 
-const data = getArrayFromArrayNoHead(DataCategory2_slide_3, 0, 15);
+const data = getArrayFromArrayNoHead(DataCategory2_slide_3, 43, 80);
 
-const Slide1_1 = () => (
-  <div className="slide" id="Category3_Slide1_3">
+const Slide1_4_1 = () => (
+  <div className="slide" id="Category3_Slide1_4">
     <div className="sectionBody">
       <Title variant3>
         Перечень автомобильных дорог к точкам роста
@@ -33,4 +33,4 @@ const Slide1_1 = () => (
   </div>
 );
 
-export default Slide1_1;
+export default Slide1_4_1;

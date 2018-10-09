@@ -1,10 +1,11 @@
+import React from 'react';
+
 export const DataCategory2_slide_2 = [
   {
     text: 'Домодедово',
-
-    pir: 'ПИР',
-    width: 'Протяженность',
-    cmr: 'СМР',
+    width: 'Протяженность, км.',
+    pir: '<div>ПИР,<br>млрд. руб.</div>',
+    cmr: '<div>СМР,<br>млрд. руб.</div>',
     head: true,
   },
   {
@@ -56,18 +57,16 @@ export const DataCategory2_slide_2 = [
   {
     text: 'Итого',
     price: {
-      value: '82,4',
-      collspan: 4,
+      value: '83,33',
+      collspan: 3,
     },
     itog: true,
   },
   {
     text: 'Жуковский',
-
-    pir: 'ПИР',
-    width: 'Протяженность',
-    cmr: 'СМР',
-
+    width: 'Протяженность, км.',
+    pir: '<div>ПИР,<br>млрд. руб.</div>',
+    cmr: '<div>СМР,<br>млрд. руб.</div>',
     head: true,
   },
   {
@@ -142,8 +141,8 @@ export const DataCategory2_slide_2 = [
   {
     text: 'Итого',
     price: {
-      value: '32,2',
-      collspan: 4,
+      value: '32,02',
+      collspan: 3,
     },
     itog: true,
   },

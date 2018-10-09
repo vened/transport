@@ -5,7 +5,7 @@ import Table from '../../../components/Table/Table';
 import { DataCategory2_slide_3 } from '../../../stubs/DataCategory2_slide_3';
 import { getArrayFromArrayNoHead } from '../../../helpers/getArrayFromArray';
 
-const data = getArrayFromArrayNoHead(DataCategory2_slide_3, 34, 45);
+const data = getArrayFromArrayNoHead(DataCategory2_slide_3, 29, 43);
 
 const Slide1_4_1 = () => (
   <div className="slide" id="Category3_Slide1_4">
