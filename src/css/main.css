@@ -176,8 +176,9 @@
   color: #000000;
 }
 
-.tooltipContent p:nth-child(2) {
+.tooltipContent p:nth-child(3) {
   margin-bottom: 0;
+  text-align: right;
 }
 
 .tooltipClose {
