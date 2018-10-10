@@ -2,6 +2,8 @@ import React, { PureComponent } from 'react';
 import {
   Popover,
   Icon,
+  Modal,
+  Button,
 } from 'antd';
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
@@ -19,12 +21,29 @@ const initialState = DataCategory2.map((item) => {
     height: item.height,
     width: item.width,
     show: false,
+    modalShow: false,
   };
 });
 
 class MainSlide extends PureComponent {
   state = {
     popovers: initialState,
+  };
+
+  toggleModalShow = (visible, currentItem) => {
+    const popovers = DataCategory2.map((item) => {
+      if (currentItem.id === item.id) {
+        return {
+          ...item,
+          modalShow: visible,
+        };
+      }
+      return {
+        ...item,
+        modalShow: false,
+      };
+    });
+    this.setState({ popovers });
   };
 
   hide = (currentItem) => {
@@ -99,6 +118,30 @@ class MainSlide extends PureComponent {
                          <p className="color1">
                            Стоимость: <b>{item.price} млрд. руб.</b>
                          </p>
+                        }
+                        {item.id !== 10 &&
+                         <p>
+                           <Button type="primary" onClick={() => this.toggleModalShow(true, item)}>Подробнее</Button>
+                         </p>
+                        }
+                        {item.id !== 10 &&
+                         <Modal
+                           centered
+                           width={1280}
+                           zIndex={2000}
+                           visible={item.modalShow}
+                           okText="Закрыть"
+                           footer={null}
+                           destroyOnClose={false}
+                           onOk={() => this.toggleModalShow(false, item)}
+                         >
+                           {item.id !== 18 &&
+                            <img src={require(`../../../img/category/2/${item.id}.jpg`)} alt="" style={{ width: '100%' }} />
+                           }
+                           {item.id === 18 &&
+                            <img src={require(`../../../img/category/2/${item.id}.png`)} alt="" style={{ width: '100%' }} />
+                           }
+                         </Modal>
                         }
                         <a className="tooltipClose" onClick={() => this.hide(item)}>
                           <Icon type="close-circle" theme="outlined" style={{ fontSize: '24px' }} />

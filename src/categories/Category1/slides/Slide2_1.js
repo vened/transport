@@ -2,6 +2,8 @@ import React, { PureComponent } from 'react';
 import {
   Popover,
   Icon,
+  Modal,
+  Button,
 } from 'antd';
 import Title from '../../../components/Title/Title';
 import img from '../assets/slideGridMap_Category1_Slide2_1-v2.jpg';
@@ -17,12 +19,29 @@ const initialState = DataCategory.map((item) => {
     height: item.height,
     width: item.width,
     show: false,
+    modalShow: false,
   };
 });
 
 class Slide2_1 extends PureComponent {
   state = {
     popovers: initialState,
+  };
+
+  toggleModalShow = (visible, currentItem) => {
+    const popovers = DataCategory.map((item) => {
+      if (currentItem.id === item.id) {
+        return {
+          ...item,
+          modalShow: visible,
+        };
+      }
+      return {
+        ...item,
+        modalShow: false,
+      };
+    });
+    this.setState({ popovers });
   };
 
   hide = (currentItem) => {
@@ -87,6 +106,25 @@ class Slide2_1 extends PureComponent {
                         <p className="color1">
                           Стоимость: <b>{item.price2} млрд. руб.</b>
                         </p>
+                        {item.id !== 34 &&
+                         <p>
+                           <Button type="primary" onClick={() => this.toggleModalShow(true, item)}>Подробнее</Button>
+                         </p>
+                        }
+                        {item.id !== 34 &&
+                         <Modal
+                           centered
+                           width={1280}
+                           zIndex={2000}
+                           visible={item.modalShow}
+                           okText="Закрыть"
+                           footer={null}
+                           destroyOnClose={false}
+                           onOk={() => this.toggleModalShow(false, item)}
+                         >
+                           <img src={require(`../../../img/category/1/2/${item.id}.jpg`)} alt='' style={{ width: '100%' }} />
+                         </Modal>
+                        }
                         <a className="tooltipClose" onClick={() => this.hide(item)}>
                           <Icon type="close-circle" theme="outlined" style={{ fontSize: '24px' }} />
                         </a>

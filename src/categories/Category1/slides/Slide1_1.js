@@ -113,7 +113,6 @@ class Slide1_1 extends PureComponent {
                           <Button type="primary" onClick={() => this.toggleModalShow(true, item)}>Подробнее</Button>
                         </p>
                         <Modal
-                          title={item.text}
                           centered
                           width={1280}
                           zIndex={2000}
@@ -123,9 +122,7 @@ class Slide1_1 extends PureComponent {
                           destroyOnClose={false}
                           onOk={() => this.toggleModalShow(false, item)}
                         >
-                          {item.id === 1 &&
-                           <img src={require(`../../../img/category/1/1/${item.id}.jpg`)} alt="" style={{width: '100%'}} />
-                          }
+                          <img src={require(`../../../img/category/1/1/${item.id}.jpg`)} alt="" style={{ width: '100%' }} />
                         </Modal>
                         <a className="tooltipClose" onClick={() => this.hide(item)}>
                           <Icon type="close-circle" theme="outlined" style={{ fontSize: '24px' }} />
