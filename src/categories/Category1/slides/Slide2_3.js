@@ -20,7 +20,6 @@ const Slide2_2 = () => (
         cells={[
           'id',
           'text',
-          'price',
           'price2',
         ]}
       />

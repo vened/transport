@@ -13,6 +13,7 @@ import Category4 from './categories/Category4/Category4';
 import Category5 from './categories/Category5/Category5';
 import Category6 from './categories/Category6/Category6';
 import Category7 from './categories/Category7/Category7';
+import Page3 from './categories/Page3/Page3';
 
 class App extends Component {
   componentDidMount() {
@@ -32,6 +33,7 @@ class App extends Component {
         'Category5',
         'Category6',
         'Category7',
+        'Page3',
       ],
       licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
     });
@@ -52,6 +54,7 @@ class App extends Component {
         <Category5 />
         <Category6 />
         <Category7 />
+        <Page3 />
       </div>
     );
   }

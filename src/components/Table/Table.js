@@ -62,6 +62,9 @@ const RenderRow = ({ classNames, rowData, cells }) => {
   if (rowData.isTitle) {
     return <Row rowData={rowData} cells={cells} classNames="TableRowTitle2" collspan={rowData.collspan} />;
   }
+  if (rowData.isTitle2) {
+    return <Row rowData={rowData} cells={cells} classNames="TableRowIsTitle2" collspan={rowData.collspan} />;
+  }
   if (rowData.rowTitle) {
     return <Row rowData={rowData} cells={cells} classNames="TableRowTitle" />;
   }

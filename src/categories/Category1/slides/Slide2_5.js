@@ -19,7 +19,6 @@ const Slide2_4 = () => (
         cells={[
           'id',
           'text',
-          'price',
           'price2',
         ]}
       />

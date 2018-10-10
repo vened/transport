@@ -27,6 +27,14 @@
   font-weight: 600;
 }
 
+.App .Table .TableRowIsTitle2 td {
+  padding: 12px;
+  background-color: #86a3cb !important;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+}
+
 .App .Table th,
 .App .Table td {
   padding: 3px 12px;
