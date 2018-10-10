@@ -58,7 +58,8 @@
 
 .slideGridSidebar_text {
   margin: 0.5em 0;
-  font-size: 1.15em;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .slideGridSidebar_text_blue_bg {
@@ -185,4 +186,8 @@
   position: absolute;
   top: -6px;
   right: -8px;
+}
+
+.nowrap{
+  white-space: nowrap;
 }

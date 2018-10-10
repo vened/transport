@@ -4,8 +4,8 @@ export const DataCategory2_slide_2 = [
   {
     text: 'Домодедово',
     width: 'Протяженность, км.',
-    pir: '<div>ПИР,<br>млрд. руб.</div>',
-    cmr: '<div>СМР,<br>млрд. руб.</div>',
+    pir: '<div class="nowrap">ПИР,<br>млрд. руб.</div>',
+    cmr: '<div class="nowrap">СМР,<br>млрд. руб.</div>',
     head: true,
   },
   {
@@ -65,8 +65,8 @@ export const DataCategory2_slide_2 = [
   {
     text: 'Жуковский',
     width: 'Протяженность, км.',
-    pir: '<div>ПИР,<br>млрд. руб.</div>',
-    cmr: '<div>СМР,<br>млрд. руб.</div>',
+    pir: '<div class="nowrap">ПИР,<br>млрд. руб.</div>',
+    cmr: '<div class="nowrap">СМР,<br>млрд. руб.</div>',
     head: true,
   },
   {

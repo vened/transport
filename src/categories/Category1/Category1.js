@@ -15,18 +15,16 @@ import './Category1.css';
 const Category1 = () => (
   <section className="section">
     <div className="sectionBody">
-      <div className="slideGridCategoryAll">
-        <MainSlide />
-        <Slide1_1 />
-        <Slide1_2 />
-        <Slide1_3 />
-        <Slide1_4 />
-        <Slide2_1 />
-        <Slide2_2 />
-        <Slide2_3 />
-        <Slide2_4 />
-        <Slide2_5 />
-      </div>
+      <MainSlide />
+      <Slide1_1 />
+      <Slide1_2 />
+      <Slide1_3 />
+      <Slide1_4 />
+      <Slide2_1 />
+      <Slide2_2 />
+      <Slide2_3 />
+      <Slide2_4 />
+      <Slide2_5 />
     </div>
   </section>
 );

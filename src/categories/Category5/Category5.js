@@ -9,12 +9,10 @@ import './Category5.css';
 const Category5 = () => (
   <section className="section">
     <div className="sectionBody">
-      <div className="slideGridCategoryAll">
-        <MainSlide />
-        <Slide1_1 />
-        <Slide1_2 />
-        <Slide1_3 />
-      </div>
+      <MainSlide />
+      <Slide1_1 />
+      <Slide1_2 />
+      <Slide1_3 />
     </div>
   </section>
 );

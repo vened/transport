@@ -76,94 +76,93 @@ class MainSlide extends PureComponent {
     return (
       <div className="slide active" id="Category2_MainSlide">
         <div className="sectionBody">
-          <div className="slideGrid">
+          <Title count={2} variant6 className="Category2Title">
+            Строительство дорог к точкам роста экономики
+          </Title>
+          <div className="categoryBody">
+            <div className="slideGrid">
+              <div className="slideGridSidebar">
+                <Table
+                  data={DataCategory2}
+                  cells={[
+                    'id',
+                    'text',
+                    'price',
+                  ]}
+                />
 
-            <div className="slideGridSidebar">
-              <Title count={2} variant6 className="Category2Title">
-                Строительство дорог к точкам роста экономики
-              </Title>
+                <div className="slideGridSidebar_more">
+                  <a href="#Category2/1">
+                    Подробная таблица
+                  </a>
+                </div>
 
-              <Table
-                className="Table3"
-                data={DataCategory2}
-                cells={[
-                  'id',
-                  'text',
-                  'price',
-                ]}
-              />
+              </div>
 
-              <div className="slideGridSidebar_more">
-                <a href="#Category2/1">
-                  Подробная таблица
-                </a>
+              <div className="slideGridMap Category2_MainSlide">
+                <img src={img} alt="" />
+
+                {this.state.popovers.map((item) => {
+                  if (!item.id) {
+                    return null;
+                  }
+                  return (
+                    <Popover
+                      key={item.id}
+                      content={
+                        <div className="tooltipContent" style={{ width: 320 }}>
+                          <p><b>{item.id}.</b> {item.text}</p>
+                          {item.price &&
+                           <p className="color1">
+                             Стоимость: <b>{item.price} млрд. руб.</b>
+                           </p>
+                          }
+                          {item.id !== 10 &&
+                           <p>
+                             <Button type="primary" onClick={() => this.toggleModalShow(true, item)}>Подробнее</Button>
+                           </p>
+                          }
+                          {item.id !== 10 &&
+                           <Modal
+                             centered
+                             width={1280}
+                             zIndex={2000}
+                             visible={item.modalShow}
+                             okText="Закрыть"
+                             footer={null}
+                             destroyOnClose={false}
+                             onOk={() => this.toggleModalShow(false, item)}
+                           >
+                             {item.id !== 18 &&
+                              <img src={require(`../../../img/category/2/${item.id}.jpg`)} alt="" style={{ width: '100%' }} />
+                             }
+                             {item.id === 18 &&
+                              <img src={require(`../../../img/category/2/${item.id}.png`)} alt="" style={{ width: '100%' }} />
+                             }
+                           </Modal>
+                          }
+                          <a className="tooltipClose" onClick={() => this.hide(item)}>
+                            <Icon type="close-circle" theme="outlined" style={{ fontSize: '24px' }} />
+                          </a>
+                        </div>
+                      }
+                      placement="left"
+                      trigger="click"
+                      visible={item.show}
+                      onVisibleChange={(visible) => this.handleVisibleChange(visible, item)}
+                    >
+                      <div className="tooltipPoint" style={{
+                        height: item.height,
+                        width: item.width,
+                        top: item.top,
+                        left: item.left,
+                      }}></div>
+                    </Popover>
+                  );
+                })}
               </div>
 
             </div>
-
-            <div className="slideGridMap Category2_MainSlide">
-              <img src={img} alt="" />
-
-              {this.state.popovers.map((item) => {
-                if (!item.id) {
-                  return null;
-                }
-                return (
-                  <Popover
-                    key={item.id}
-                    content={
-                      <div className="tooltipContent" style={{ width: 320 }}>
-                        <p><b>{item.id}.</b> {item.text}</p>
-                        {item.price &&
-                         <p className="color1">
-                           Стоимость: <b>{item.price} млрд. руб.</b>
-                         </p>
-                        }
-                        {item.id !== 10 &&
-                         <p>
-                           <Button type="primary" onClick={() => this.toggleModalShow(true, item)}>Подробнее</Button>
-                         </p>
-                        }
-                        {item.id !== 10 &&
-                         <Modal
-                           centered
-                           width={1280}
-                           zIndex={2000}
-                           visible={item.modalShow}
-                           okText="Закрыть"
-                           footer={null}
-                           destroyOnClose={false}
-                           onOk={() => this.toggleModalShow(false, item)}
-                         >
-                           {item.id !== 18 &&
-                            <img src={require(`../../../img/category/2/${item.id}.jpg`)} alt="" style={{ width: '100%' }} />
-                           }
-                           {item.id === 18 &&
-                            <img src={require(`../../../img/category/2/${item.id}.png`)} alt="" style={{ width: '100%' }} />
-                           }
-                         </Modal>
-                        }
-                        <a className="tooltipClose" onClick={() => this.hide(item)}>
-                          <Icon type="close-circle" theme="outlined" style={{ fontSize: '24px' }} />
-                        </a>
-                      </div>
-                    }
-                    placement="left"
-                    trigger="click"
-                    visible={item.show}
-                    onVisibleChange={(visible) => this.handleVisibleChange(visible, item)}
-                  >
-                    <div className="tooltipPoint" style={{
-                      height: item.height,
-                      width: item.width,
-                      top: item.top,
-                      left: item.left,
-                    }}></div>
-                  </Popover>
-                );
-              })}
-            </div>
-
           </div>
         </div>
 

@@ -9,37 +9,41 @@ import img from '../assets/category3.jpg';
 const MainSlide = () => (
   <div className="slide active" id="Category3_MainSlide">
     <div className="sectionBody">
-      <div className="slideGrid">
-        <div className="slideGridSidebar">
-          <Title count={3} variant6 className="Category3SidebatTitle">
-            Развитие основных магистралей: вылетных и хордовых направлений
-            (Федеральных и региональных)
-          </Title>
+      <Title count={3}>
+        Развитие основных магистралей: вылетных и хордовых направлений
+        (Федеральных и региональных)
+      </Title>
+      <div className="categoryBody">
+        <div className="slideGrid">
+          <div className="slideGridSidebar">
 
-          <div className="Category3SidebatText">
-            Полная или частичная реконструкция с «расшивкой» проблемных участков. Хорды могут быть платные – через концессию или бесплатные
-            – для миграции трудовых ресурсов; наиболее эффективно - совместить с дорогами для точек роста.
+            <div className="Category3SidebatText">
+              Полная или частичная реконструкция с «расшивкой» проблемных участков. Хорды могут быть платные – через концессию или
+              бесплатные
+              – для миграции трудовых ресурсов; наиболее эффективно - совместить с дорогами для точек роста.
+            </div>
+
+            <Table
+              className="Table2"
+              data={DataCategory3}
+              cells={[
+                'text',
+                'price',
+              ]}
+            />
+
+            <div className="slideGridSidebar_more">
+              <a href="#Category3/1">
+                Подробная таблица
+              </a>
+            </div>
+
           </div>
-
-          <Table
-            className="Table2"
-            data={DataCategory3}
-            cells={[
-              'text',
-              'price',
-            ]}
-          />
-
-          <div className="slideGridSidebar_more">
-            <a href="#Category3/1">
-              Подробная таблица
-            </a>
+          <div className="slideGridMap slideGridMap_Category1_Slide2_1">
+            <img src={img} alt="" />
           </div>
+        </div>
 
-        </div>
-        <div className="slideGridMap slideGridMap_Category1_Slide2_1">
-          <img src={img} alt="" />
-        </div>
       </div>
     </div>
     <a className="fp-controlArrow fp-back" href="#Page2">

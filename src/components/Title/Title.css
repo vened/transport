@@ -1,22 +1,24 @@
 .Title {
-  margin: 0 0 2em;
+  margin: 0 0 1.3em;
   display: flex;
   align-items: flex-start;
 }
 
 .TitleCount {
   width: 60px;
+  margin-top: 5px;
   margin-right: 24px !important;
-  font-size: 3em !important;
+  font-size: 2.5em !important;
   line-height: 1 !important;
   font-weight: 700;
   color: #1a4c91;
+  text-align: left;
 }
 
 .App .TitleTitle {
   width: 100%;
   margin: 0;
-  padding: 0.5em 1em;
+  padding: 0.4em 1em;
   border-radius: 25px 0 25px 0;
   background-color: #0082b3;
   color: #fff;
@@ -63,7 +65,7 @@
   text-align: center;
   line-height: 1.2;
   font-weight: 600;
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 .App .TitleVariant6 {

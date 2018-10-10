@@ -13,7 +13,7 @@ const Category4Slide1_1 = () => (
         Строительство ТПУ на МЦД
       </Title>
       <div className="slideGrid">
-        <div className="slideGridSidebar" style={{width: "auto"}}>
+        <div className="slideGridSidebar" style={{width: "56%"}}>
           <Table
             className="Table2"
             data={DataCategory4}

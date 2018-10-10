@@ -1,5 +1,5 @@
 .Category6Title h4{
-  font-size: 0.9em !important;
+  font-size: 0.8em !important;
   line-height: 1.4 !important;
 }
 
@@ -7,11 +7,12 @@
   position: relative;
   height: 897px;
   width: 1470px;
+  margin:  0 auto;
 }
 .slideGridCategory6Sidebar{
   position: absolute;
   left: 0;
-  top: 180px;
+  top: 142px;
   z-index: 3;
   width: 420px;
 }

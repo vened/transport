@@ -6,8 +6,16 @@
   align-items: flex-start;
 }
 
+#Category2_MainSlide .slideGridSidebar {
+  width: 60%;
+}
+
+#Category2_MainSlide .slideGridMap {
+  width: 40%;
+}
+
 .slideGrid_Category3_Slide1_6 .slideGridSidebar {
-  font-size: 0.7em;
+  font-size: 0.8em;
   width: 50%;
   text-align: left;
 }
@@ -27,7 +35,7 @@
 
 .goAeroport {
   display: flex !important;
-  width: 320px;
+  width: 360px;
   margin: 24px 0 0 0;
   align-items: center;
 
