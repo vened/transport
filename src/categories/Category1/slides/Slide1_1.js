@@ -106,9 +106,11 @@ class Slide1_1 extends PureComponent {
                     content={
                       <div className="tooltipContent">
                         <p><b>{item.id}.</b> {item.text}</p>
-                        <p className="color1">
-                          Стоимость: <b>{item.price2} млрд. руб.</b>
-                        </p>
+                        {item.price2 !== '—' &&
+                         <p className="color1">
+                           Стоимость: <b>{item.price2} млрд. руб.</b>
+                         </p>
+                        }
                         <p>
                           <Button type="primary" onClick={() => this.toggleModalShow(true, item)}>Подробнее</Button>
                         </p>

@@ -1,5 +1,5 @@
 .Category4Subtitle {
-  margin: 2em 0;
+  margin: 1.2em 0;
   text-align: center;
   font-size: 1.2em;
   font-weight: 500;
@@ -27,6 +27,7 @@
 }
 
 .Category4BodyRigth {
+  position: relative;
   width: 50%;
   flex-grow: 1;
   flex-shrink: 1;
@@ -41,4 +42,12 @@
 .slideGridMap_Category4_Slide1_1{
   height: auto !important;
   width: auto !important;
+}
+
+
+.Category4BodyRigth .slideGridSidebar_more{
+  position: absolute;
+  bottom: -3em;
+  left: 0;
+  right: 0;
 }

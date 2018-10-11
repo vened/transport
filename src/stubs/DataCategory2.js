@@ -182,7 +182,7 @@ export const DataCategory2 = [
   {
     id: 19,
     text: 'Культурный центр Сергиев Посад ',
-    price: null,
+    price: '—',
     width: '30px',
     height: '30px',
     top: '17%',
