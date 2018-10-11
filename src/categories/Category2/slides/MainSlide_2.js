@@ -8,10 +8,10 @@ import {
 import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
 import { DataCategory2 } from '../../../stubs/DataCategory2';
-import { getArrayFromArrayNoHead } from '../../../helpers/getArrayFromArray';
+import { getArrayFromArray } from '../../../helpers/getArrayFromArray';
 import img from '../assets/slide44.jpg';
 
-const data = getArrayFromArrayNoHead(DataCategory2, 0, 13);
+const data = getArrayFromArray(DataCategory2, 13, 40);
 
 const initialState = DataCategory2.map((item) => {
   return {
@@ -76,7 +76,7 @@ class MainSlide extends PureComponent {
 
   render() {
     return (
-      <div className="slide active" id="Category2_MainSlide">
+      <div className="slide active" id="Category2_MainSlide_2">
         <div className="sectionBody">
           <Title count={2} variant6 className="Category2Title">
             Строительство дорог к точкам роста экономики

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import MainSlide from './slides/MainSlide';
+import MainSlide_2 from './slides/MainSlide_2';
 import Slide1_1 from './slides/Slide1_1';
 import Slide1_2 from './slides/Slide1_2';
 import Slide1_3 from './slides/Slide1_3';
@@ -17,6 +18,7 @@ const Category2 = () => (
   <section className="section">
     <div className="sectionBody">
       <MainSlide />
+      <MainSlide_2 />
       <Slide1_1 />
       <Slide1_2 />
       <Slide1_3 />
