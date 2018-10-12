@@ -164,9 +164,9 @@
   cursor: pointer;
   font-size: 12px;
   color: #fff;
-  background-color: rgba(255, 0, 0, 0.67);
-  text-align: center;
-  line-height: 20px;
+  /*background-color: rgba(255, 0, 0, 0.67);*/
+  /*text-align: center;*/
+  /*line-height: 20px;*/
 }
 
 .Category2_MainSlide .tooltipPoint {
