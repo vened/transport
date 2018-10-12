@@ -15,13 +15,7 @@ const data = getArrayFromArray(DataCategory2, 13, 40);
 
 const initialState = data.map((item) => {
   return {
-    id: item.id,
-    text: item.text,
-    price2: item.price2,
-    top: item.top,
-    left: item.left,
-    height: item.height,
-    width: item.width,
+    ...item,
     show: false,
     modalShow: false,
     modalShow2: false,
@@ -49,16 +43,6 @@ class MainSlide extends PureComponent {
     this.setState({ popovers });
   };
 
-  toggleModalClose2 = () => {
-    const popovers = this.state.popovers.map((item) => {
-      return {
-        ...item,
-        modalShow2: false,
-      };
-    });
-    this.setState({ popovers });
-  };
-
   toggleModalShow = (visible, currentItem) => {
     const popovers = this.state.popovers.map((item) => {
       if (currentItem.id === item.id) {
@@ -70,6 +54,17 @@ class MainSlide extends PureComponent {
       return {
         ...item,
         modalShow: false,
+      };
+    });
+    this.setState({ popovers });
+  };
+
+  hideModal = () => {
+    const popovers = this.state.popovers.map((item) => {
+      return {
+        ...item,
+        modalShow: false,
+        modalShow2: false,
       };
     });
     this.setState({ popovers });
@@ -128,19 +123,43 @@ class MainSlide extends PureComponent {
                 </div>
 
                 {this.state.popovers.map((item) => {
-                  if (item.id && item.id !== '№' ) {
+                  if (item.id && item.id !== '№') {
                     return (
                       <Modal
+                        key={`item.text${item.id}`}
                         centered
                         width={1280}
                         zIndex={2000}
                         visible={item.modalShow2}
-                        okText="Закрыть"
                         footer={null}
                         destroyOnClose={false}
-                        onCancel={() => this.toggleModalClose2()}
+                        onCancel={() => this.hideModal()}
                       >
                         <img src={require(`../../../img/category/2/mainSlide/${item.id}.JPG`)} alt="" style={{ width: '100%' }} />
+                      </Modal>
+                    );
+                  }
+                })}
+
+                {this.state.popovers.map((item) => {
+                  if (item.id && item.id !== 10 && item.id !== '№') {
+                    return (
+                      <Modal
+                        key={item.text}
+                        centered
+                        width={1280}
+                        zIndex={2000}
+                        visible={item.modalShow}
+                        footer={null}
+                        destroyOnClose={false}
+                        onCancel={() => this.hideModal()}
+                      >
+                        {item.id !== 18 &&
+                         <img src={require(`../../../img/category/2/${item.id}.jpg`)} alt="" style={{ width: '100%' }} />
+                        }
+                        {item.id === 18 &&
+                         <img src={require(`../../../img/category/2/${item.id}.png`)} alt="" style={{ width: '100%' }} />
+                        }
                       </Modal>
                     );
                   }
@@ -160,7 +179,7 @@ class MainSlide extends PureComponent {
                       key={item.id}
                       content={
                         <div className="tooltipContent" style={{ width: 320 }}>
-                          <p><b>{item.id}.</b> {item.text}</p>
+                          <p><b>{item.id}.</b> <span dangerouslySetInnerHTML={{ __html: item.text }} /></p>
                           {item.price !== '—' &&
                            <p className="color1">
                              Стоимость: <b>{item.price} млрд. руб.</b>
@@ -170,25 +189,6 @@ class MainSlide extends PureComponent {
                            <p>
                              <Button type="primary" onClick={() => this.toggleModalShow(true, item)}>Подробнее</Button>
                            </p>
-                          }
-                          {item.id !== 10 &&
-                           <Modal
-                             centered
-                             width={1280}
-                             zIndex={2000}
-                             visible={item.modalShow}
-                             okText="Закрыть"
-                             footer={null}
-                             destroyOnClose={false}
-                             onOk={() => this.toggleModalShow(false, item)}
-                           >
-                             {item.id !== 18 &&
-                              <img src={require(`../../../img/category/2/${item.id}.jpg`)} alt="" style={{ width: '100%' }} />
-                             }
-                             {item.id === 18 &&
-                              <img src={require(`../../../img/category/2/${item.id}.png`)} alt="" style={{ width: '100%' }} />
-                             }
-                           </Modal>
                           }
                           <a className="tooltipClose" onClick={() => this.hide(item)}>
                             <Icon type="close-circle" theme="outlined" style={{ fontSize: '24px' }} />
