@@ -257,6 +257,7 @@ export const DataCategory2_slide_4 = [
     cmr: '0,96',
     price: '',
   },
+  { id: 1, text: 'Каширское шоссе - Голубино', date: '2 года', pir: '3,89', width: '', cmr: '3,89', price: '' },
   {
     text: 'Инновационный парк «Сколково»',
     date: 'Сроки строительства',

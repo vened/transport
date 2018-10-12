@@ -173,7 +173,7 @@ export const DataCategory2 = [
   {
     id: 18,
     text: 'Максимиха (планируемый)',
-    price: '0,96',
+    price: '3,89',
     width: '30px',
     height: '30px',
     top: '52.7%',
@@ -190,7 +190,7 @@ export const DataCategory2 = [
   },
   {
     text: 'Итого',
-    price: '481,26',
+    price: '484,19',
     itog: true,
   },
 ];
