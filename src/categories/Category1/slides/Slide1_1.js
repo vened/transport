@@ -6,7 +6,7 @@ import {
   Button,
 } from 'antd';
 import Title from '../../../components/Title/Title';
-import img from '../assets/slideGridMap_Category1_Slide1_1-v2.jpg';
+import img from '../assets/slideGridMap_Category1_Slide1_1-v3.jpg';
 import DataCategory from '../../../stubs/DataCategory1_1';
 
 const initialState = DataCategory.map((item) => {
