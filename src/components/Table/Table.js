@@ -19,7 +19,12 @@ const TableHead = ({ rowData, cells }) => {
   );
 };
 
-const Row = ({ classNames, rowData, cells, collspan, itogCollspan }) => {
+const Row = ({ classNames, rowData, cells, collspan, itogCollspan, onClickRow }) => {
+  const className = cn(
+    classNames,
+    { onClickRow: onClickRow },
+  );
+
   if (collspan) {
     return (
       <tr className={classNames}>
@@ -43,11 +48,11 @@ const Row = ({ classNames, rowData, cells, collspan, itogCollspan }) => {
     );
   }
   return (
-    <tr className={classNames}>
+    <tr className={className} onClick={() => onClickRow(rowData)}>
       {cells.map((cell) => {
         return (
           <td colSpan={collspan}>
-            {rowData[cell]}
+            <span dangerouslySetInnerHTML={{ __html: rowData[cell] }} />
           </td>
         );
       })}
@@ -55,7 +60,7 @@ const Row = ({ classNames, rowData, cells, collspan, itogCollspan }) => {
   );
 };
 
-const RenderRow = ({ classNames, rowData, cells }) => {
+const RenderRow = ({ classNames, rowData, cells, onClickRow }) => {
   if (rowData.head) {
     return <TableHead rowData={rowData} cells={cells} />;
   }
@@ -72,12 +77,12 @@ const RenderRow = ({ classNames, rowData, cells }) => {
     return <Row rowData={rowData} cells={cells} classNames="TableItogProject" />;
   }
   if (rowData.itog) {
-    return <Row rowData={rowData} cells={cells} classNames="TableItog" itogCollspan={rowData.price && rowData.price.collspan}/>;
+    return <Row rowData={rowData} cells={cells} classNames="TableItog" itogCollspan={rowData.price && rowData.price.collspan} />;
   }
-  return <Row rowData={rowData} cells={cells} />;
+  return <Row rowData={rowData} cells={cells} onClickRow={onClickRow} />;
 };
 
-const Table = ({ data, cells, className }) => {
+const Table = ({ data, cells, className, onClickRow }) => {
   const classNames = cn(
     'Table',
     className,
@@ -86,7 +91,7 @@ const Table = ({ data, cells, className }) => {
     <table className={classNames}>
       {data.map((item) => {
         return (
-          <RenderRow rowData={item} cells={cells} />
+          <RenderRow rowData={item} cells={cells} onClickRow={onClickRow} />
         );
       })}
     </table>
@@ -96,6 +101,7 @@ const Table = ({ data, cells, className }) => {
 Table.propTypes = {
   data: PropTypes.object.isRequired,
   cells: PropTypes.array.isRequired,
+  onClickRow: PropTypes.func,
 };
 
 export default Table;

@@ -54,6 +54,15 @@
   background-color: #cce2f9;
 }
 
+.App .Table tr.onClickRow td .link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.App .Table tr.onClickRow td .link:hover {
+  text-decoration: none;
+}
+
 
 .App .Table .TableItog td{
   padding: 6px 12px;

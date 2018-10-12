@@ -1,24 +1,8 @@
 .Category6Title h4{
-  font-size: 0.8em !important;
-  line-height: 1.4 !important;
+  font-size: 1em !important;
+  line-height: 1.3 !important;
 }
 
-.slideGridCategory6{
-  position: relative;
-  height: 897px;
-  width: 1470px;
-  margin:  0 auto;
-}
-.slideGridCategory6Sidebar{
-  position: absolute;
-  left: 0;
-  top: 142px;
-  z-index: 3;
-  width: 420px;
-}
-.slideGridCategory6Map{
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 2;
+.slideGridCategory6Map {
+  text-align: center;
 }

@@ -9,11 +9,11 @@ import Title from '../../../components/Title/Title';
 import Table from '../../../components/Table/Table';
 import { DataCategory2 } from '../../../stubs/DataCategory2';
 import { getArrayFromArrayNoHead } from '../../../helpers/getArrayFromArray';
-import img from '../assets/slide44.jpg';
+import img from '../assets/MainSlide.jpg';
 
 const data = getArrayFromArrayNoHead(DataCategory2, 0, 13);
 
-const initialState = DataCategory2.map((item) => {
+const initialState = data.map((item) => {
   return {
     id: item.id,
     text: item.text,
@@ -24,6 +24,7 @@ const initialState = DataCategory2.map((item) => {
     width: item.width,
     show: false,
     modalShow: false,
+    modalShow2: false,
   };
 });
 
@@ -32,8 +33,35 @@ class MainSlide extends PureComponent {
     popovers: initialState,
   };
 
+  toggleModalShow2 = (currentItem) => {
+    const popovers = this.state.popovers.map((item) => {
+      if (currentItem.id === item.id) {
+        return {
+          ...item,
+          modalShow2: !item.modalShow2,
+        };
+      }
+      return {
+        ...item,
+        modalShow2: false,
+      };
+    });
+    this.setState({ popovers });
+  };
+
+  toggleModalClose2 = () => {
+    const popovers = this.state.popovers.map((item) => {
+      return {
+        ...item,
+        modalShow2: false,
+      };
+    });
+    this.setState({ popovers });
+  };
+
+
   toggleModalShow = (visible, currentItem) => {
-    const popovers = DataCategory2.map((item) => {
+    const popovers = this.state.popovers.map((item) => {
       if (currentItem.id === item.id) {
         return {
           ...item,
@@ -49,7 +77,7 @@ class MainSlide extends PureComponent {
   };
 
   hide = (currentItem) => {
-    const popovers = DataCategory2.map((item) => {
+    const popovers = this.state.popovers.map((item) => {
       return {
         ...item,
         show: false,
@@ -59,7 +87,7 @@ class MainSlide extends PureComponent {
   };
 
   handleVisibleChange = (visible, currentItem) => {
-    const popovers = DataCategory2.map((item) => {
+    const popovers = this.state.popovers.map((item) => {
       if (currentItem.id === item.id) {
         return {
           ...item,
@@ -76,7 +104,7 @@ class MainSlide extends PureComponent {
 
   render() {
     return (
-      <div className="slide active" id="Category2_MainSlide">
+      <div className="slide active Category2_MainSlide" id="Category2_MainSlide">
         <div className="sectionBody">
           <Title count={2} variant6 className="Category2Title">
             Строительство дорог к точкам роста экономики
@@ -86,6 +114,7 @@ class MainSlide extends PureComponent {
               <div className="slideGridSidebar">
                 <Table
                   data={data}
+                  onClickRow={(item) => this.toggleModalShow2(item)}
                   cells={[
                     'id',
                     'text',
@@ -98,6 +127,25 @@ class MainSlide extends PureComponent {
                     Подробная таблица
                   </a>
                 </div>
+
+                {this.state.popovers.map((item) => {
+                  if (item.id && item.id < 16 && item.id !== '№' ) {
+                    return (
+                      <Modal
+                        centered
+                        width={1280}
+                        zIndex={2000}
+                        visible={item.modalShow2}
+                        okText="Закрыть"
+                        footer={null}
+                        destroyOnClose={false}
+                        onCancel={() => this.toggleModalClose2()}
+                      >
+                        <img src={require(`../../../img/category/2/mainSlide/${item.id}.JPG`)} alt="" style={{ width: '100%' }} />
+                      </Modal>
+                    );
+                  }
+                })}
 
               </div>
 
