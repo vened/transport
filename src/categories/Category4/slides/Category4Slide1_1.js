@@ -13,7 +13,7 @@ const Category4Slide1_1 = () => (
         Строительство ТПУ на МЦД
       </Title>
       <div className="slideGrid">
-        <div className="slideGridSidebar" style={{width: "56%"}}>
+        <div className="slideGridSidebar" style={{width: "46%"}}>
           <Table
             className="Table2"
             data={DataCategory4}
@@ -25,7 +25,7 @@ const Category4Slide1_1 = () => (
           />
         </div>
         <div className="slideGridMap slideGridMap_Category4_Slide1_1" style={{width: "auto"}}>
-          <img src={img} alt="" />
+          <img src={img} alt="" width={1100} />
         </div>
       </div>
     </div>

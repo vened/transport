@@ -12,7 +12,7 @@ const Category6 = () => (
         в точках состыковки с будущими линиями Московского метрополитена
       </Title>
       <div className="slideGridCategory6Map">
-        <img src={img} alt="" />
+        <img src={img} alt="" width={1500} />
       </div>
     </div>
     <a className="fp-controlArrow fp-back" href="#Page2">
